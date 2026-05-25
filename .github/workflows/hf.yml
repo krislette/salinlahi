@@ -1,0 +1,35 @@
+name: Sync to Hugging Face Space
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Sync to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_DEPLOYMENT_TOKEN }}
+        run: |
+          git config --global user.email "acellekrislette@gmail.com"
+          git config --global user.name "krislette"
+
+          git clone https://krislette:$HF_TOKEN@huggingface.co/spaces/krislette/salinlahi hf-space
+
+          cp -r app/        hf-space/
+          cp -r src/        hf-space/
+          cp -r config/     hf-space/
+          cp -r scripts/    hf-space/
+          cp -r models/     hf-space/
+          cp Dockerfile     hf-space/
+
+          cd hf-space
+          git add .
+          git commit -m "Sync from GitHub: ${{ github.sha }}" || echo "No changes to commit"
+          git push
