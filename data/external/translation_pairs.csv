@@ -1,0 +1,1657 @@
+language_pair,split,source_lang,target_lang,source_text,target_text
+Tagalog-Waray,train,Tagalog,Waray,Ambulansya,Amulansya
+Tagalog-Waray,train,Tagalog,Waray,Ibon,Tamsi
+Tagalog-Waray,train,Tagalog,Waray,Istasyon ng Pulisya,Istasyon Hab Pulis
+Tagalog-Waray,train,Tagalog,Waray,Gawain sa bahay,Buruhaton Ha Panimalay
+Tagalog-Waray,train,Tagalog,Waray,hipo,hápros
+Tagalog-Waray,train,Tagalog,Waray,Tatlo,Tulo
+Tagalog-Waray,train,Tagalog,Waray,magrereserba,maggahin
+Tagalog-Waray,train,Tagalog,Waray,Iloilo,Iloilo
+Tagalog-Waray,train,Tagalog,Waray,Walong daan,Otso Syentos
+Tagalog-Waray,train,Tagalog,Waray,Lila,Purpura
+Tagalog-Waray,train,Tagalog,Waray,Inihaw na bangus,Sinugba Ng Bangus
+Tagalog-Waray,train,Tagalog,Waray,wala,waray
+Tagalog-Waray,train,Tagalog,Waray,sigaw,guliat
+Tagalog-Waray,train,Tagalog,Waray,R,R
+Tagalog-Waray,train,Tagalog,Waray,lumabas,gunuwás
+Tagalog-Waray,train,Tagalog,Waray,hapon,kulop
+Tagalog-Waray,train,Tagalog,Waray,S,S
+Tagalog-Waray,train,Tagalog,Waray,Soda,Inumon Panpatugnaw
+Tagalog-Waray,train,Tagalog,Waray,Kung,Kon
+Tagalog-Waray,train,Tagalog,Waray,Bakuran,Bungsaran
+Tagalog-Waray,train,Tagalog,Waray,Paru-paro,Alibangbang
+Tagalog-Waray,train,Tagalog,Waray,Sinturis,Sinturis
+Tagalog-Waray,train,Tagalog,Waray,Kanya,Iya
+Tagalog-Waray,train,Tagalog,Waray,kulot,kurong
+Tagalog-Waray,train,Tagalog,Waray,Mabuti ako,Maupay Ako
+Tagalog-Waray,train,Tagalog,Waray,Susi,Liyabe
+Tagalog-Waray,train,Tagalog,Waray,Istasyon ng bumbero,Istasyon Han Bombero
+Tagalog-Waray,train,Tagalog,Waray,Trillion,Trilyon
+Tagalog-Waray,train,Tagalog,Waray,Anong ginagawa mo?,Ano An Im Ginbubuhat?
+Tagalog-Waray,train,Tagalog,Waray,Itlog,Bunay
+Tagalog-Waray,train,Tagalog,Waray,Silid-Tulugan,Sulod-Katurogan
+Tagalog-Waray,train,Tagalog,Waray,Pagsusulit,Pagsurat Nga Eksaminasyon
+Tagalog-Waray,train,Tagalog,Waray,Kuneho,Koneho
+Tagalog-Waray,train,Tagalog,Waray,anak na babae,anák nga babaye
+Tagalog-Waray,train,Tagalog,Waray,yakap,gakós
+Tagalog-Waray,train,Tagalog,Waray,U,U
+Tagalog-Waray,train,Tagalog,Waray,alas onse ng umaga,álas onse han ága
+Tagalog-Waray,train,Tagalog,Waray,Sanggol,Minasus-Án/Puyá
+Tagalog-Waray,train,Tagalog,Waray,Ninong,Amáy Ha Bunyág
+Tagalog-Waray,train,Tagalog,Waray,Mantikilya,Mantikilya
+Tagalog-Waray,train,Tagalog,Waray,Silid-Bakante,Libre Nga Kwarto
+Tagalog-Waray,train,Tagalog,Waray,Dalawampu,Bente
+Tagalog-Waray,train,Tagalog,Waray,V,V
+Tagalog-Waray,train,Tagalog,Waray,Abril,Abril
+Tagalog-Waray,train,Tagalog,Waray,Ilan,Pira
+Tagalog-Waray,train,Tagalog,Waray,trabaho,trábaho
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput siyam,Bente Nuebe
+Tagalog-Waray,train,Tagalog,Waray,Biyernes,Byernes
+Tagalog-Waray,train,Tagalog,Waray,gusto,ruyág
+Tagalog-Waray,train,Tagalog,Waray,Dilaw,Dulaw
+Tagalog-Waray,train,Tagalog,Waray,Restawran,Restawran
+Tagalog-Waray,train,Tagalog,Waray,makinis,pino
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput walo,Bente Otso
+Tagalog-Waray,train,Tagalog,Waray,Lolo,Apóy Nga Lalake
+Tagalog-Waray,train,Tagalog,Waray,Pito,Pito
+Tagalog-Waray,train,Tagalog,Waray,Longganisa,Longanisa
+Tagalog-Waray,train,Tagalog,Waray,talon,luksó
+Tagalog-Waray,train,Tagalog,Waray,Pilosopiya,Pilosopiya
+Tagalog-Waray,train,Tagalog,Waray,alas sais ng gabi,álas sais han kulop
+Tagalog-Waray,train,Tagalog,Waray,Silid Pampamilya,Kanan Pamilya Kwarto
+Tagalog-Waray,train,Tagalog,Waray,Tatlong taon,Tulo Katuig
+Tagalog-Waray,train,Tagalog,Waray,Million,Milyon
+Tagalog-Waray,train,Tagalog,Waray,Silid pang-ehersisyo,Himnasyo
+Tagalog-Waray,train,Tagalog,Waray,kasintahan,konsolyó
+Tagalog-Waray,train,Tagalog,Waray,Teatro,Teatro
+Tagalog-Waray,train,Tagalog,Waray,Tatlong buwan,Tulo Kabulan
+Tagalog-Waray,train,Tagalog,Waray,gabi,gab-i
+Tagalog-Waray,train,Tagalog,Waray,Pagkahilo,Pagkálipngaw
+Tagalog-Waray,train,Tagalog,Waray,anak na lalaki,anák nga lalake
+Tagalog-Waray,train,Tagalog,Waray,matigas,matig-á
+Tagalog-Waray,train,Tagalog,Waray,Agosto,Agosto
+Tagalog-Waray,train,Tagalog,Waray,Kalesa,Karuwahe
+Tagalog-Waray,train,Tagalog,Waray,Istasyon ng tren,Istasyon Han Tren
+Tagalog-Waray,train,Tagalog,Waray,Aurora,Aurora
+Tagalog-Waray,train,Tagalog,Waray,Puti,Busag
+Tagalog-Waray,train,Tagalog,Waray,Nobyembre,Nobyembre
+Tagalog-Waray,train,Tagalog,Waray,Sampu,Napulo
+Tagalog-Waray,train,Tagalog,Waray,makapal,madakmol
+Tagalog-Waray,train,Tagalog,Waray,Siper,Siper
+Tagalog-Waray,train,Tagalog,Waray,nobyo,nobyó
+Tagalog-Waray,train,Tagalog,Waray,o,o
+Tagalog-Waray,train,Tagalog,Waray,Kondominyum,Kondominyum
+Tagalog-Waray,train,Tagalog,Waray,Ampon,Pinarigonán
+Tagalog-Waray,train,Tagalog,Waray,Sa akin,Ha Akon
+Tagalog-Waray,train,Tagalog,Waray,aral,arám
+Tagalog-Waray,train,Tagalog,Waray,alas dose ng tanghali,álas dose han ága
+Tagalog-Waray,train,Tagalog,Waray,Bababa,Paubos
+Tagalog-Waray,train,Tagalog,Waray,Mayo,Mayo
+Tagalog-Waray,train,Tagalog,Waray,ligo,rigó
+Tagalog-Waray,train,Tagalog,Waray,Tulay,Tulay
+Tagalog-Waray,train,Tagalog,Waray,Paaralan,Eskuwelahan
+Tagalog-Waray,train,Tagalog,Waray,Upa,Plete
+Tagalog-Waray,train,Tagalog,Waray,Masaya akong makilala ka,Nalipay Ako Hin Pagkilala Ha Imo
+Tagalog-Waray,train,Tagalog,Waray,asawang lalaki,asawa nga lalake
+Tagalog-Waray,train,Tagalog,Waray,Ako ay mabuti,Maupay Ako
+Tagalog-Waray,train,Tagalog,Waray,Silid,Sulod
+Tagalog-Waray,train,Tagalog,Waray,espesiyal,kaiba
+Tagalog-Waray,train,Tagalog,Waray,Kabag,Kábag
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput tatlo,Bente Tres
+Tagalog-Waray,train,Tagalog,Waray,Agham,Siyensya
+Tagalog-Waray,train,Tagalog,Waray,linis,hamisi
+Tagalog-Waray,train,Tagalog,Waray,bago,bag-o
+Tagalog-Waray,train,Tagalog,Waray,Fatigue,Págal
+Tagalog-Waray,train,Tagalog,Waray,bukas,buwas
+Tagalog-Waray,train,Tagalog,Waray,Kinupkop,Panalipód
+Tagalog-Waray,train,Tagalog,Waray,Ikalawang palapag,Ikaduha Nga Andana
+Tagalog-Waray,train,Tagalog,Waray,Salon ng buhok,Salon Hin Buhok
+Tagalog-Waray,train,Tagalog,Waray,Mahal kita,Hinigugma Ko Ikaw
+Tagalog-Waray,train,Tagalog,Waray,alas syete ng umaga,álas syite han ága
+Tagalog-Waray,train,Tagalog,Waray,Walumpu,Otsenta
+Tagalog-Waray,train,Tagalog,Waray,Palahayupan,Hardin Soolohiko
+Tagalog-Waray,train,Tagalog,Waray,Opisina,Upisina
+Tagalog-Waray,train,Tagalog,Waray,alas sais ng umaga,álas sáis han ága
+Tagalog-Waray,train,Tagalog,Waray,Pamahalaan,Gobiyerno
+Tagalog-Waray,train,Tagalog,Waray,Balkonahe,Balkonahe
+Tagalog-Waray,train,Tagalog,Waray,Siyam,Siyam
+Tagalog-Waray,train,Tagalog,Waray,Kailan,San-O
+Tagalog-Waray,train,Tagalog,Waray,payat,haligot
+Tagalog-Waray,train,Tagalog,Waray,Paksiw na bangus,Paksiw Nga Bangus
+Tagalog-Waray,train,Tagalog,Waray,Isang araw,Sayô Kaadlaw
+Tagalog-Waray,train,Tagalog,Waray,Labing isa,Onse
+Tagalog-Waray,train,Tagalog,Waray,bata,batá
+Tagalog-Waray,train,Tagalog,Waray,Bahay,Balay
+Tagalog-Waray,train,Tagalog,Waray,Labing apat,Katorse
+Tagalog-Waray,train,Tagalog,Waray,Taon,Tuig
+Tagalog-Waray,train,Tagalog,Waray,Martes,Martes
+Tagalog-Waray,train,Tagalog,Waray,Labing pito,Desisyete
+Tagalog-Waray,train,Tagalog,Waray,Araling Panlipunan,Araling Panlipunan
+Tagalog-Waray,train,Tagalog,Waray,Pamilya,Panimaláy
+Tagalog-Waray,train,Tagalog,Waray,Asul,Asul
+Tagalog-Waray,train,Tagalog,Waray,Gasolinahan,Gasolinahan
+Tagalog-Waray,train,Tagalog,Waray,mapurol,mangarol
+Tagalog-Waray,train,Tagalog,Waray,Sabado,Sabado
+Tagalog-Waray,train,Tagalog,Waray,Tocino,Tocino
+Tagalog-Waray,train,Tagalog,Waray,I,I
+Tagalog-Waray,train,Tagalog,Waray,Buwaya,Buaya
+Tagalog-Waray,train,Tagalog,Waray,Habal-habal,Habal-Habal
+Tagalog-Waray,train,Tagalog,Waray,Sipon,Sip-On
+Tagalog-Waray,train,Tagalog,Waray,Kapitbahay,Anyaw
+Tagalog-Waray,train,Tagalog,Waray,J,J
+Tagalog-Waray,train,Tagalog,Waray,unawain,íntyindihon
+Tagalog-Waray,train,Tagalog,Waray,Hanggang sa muli,Kitaay Kita Utro
+Tagalog-Waray,train,Tagalog,Waray,Bahaghari,Balangaw
+Tagalog-Waray,train,Tagalog,Waray,upo,íngkud
+Tagalog-Waray,train,Tagalog,Waray,San ka nagmula?,Taga Diin Ka?
+Tagalog-Waray,train,Tagalog,Waray,Nilagang itlog,Gin-Ihaw Nga Bunay
+Tagalog-Waray,train,Tagalog,Waray,Tsaa,Simente
+Tagalog-Waray,train,Tagalog,Waray,Silid aklatan,Barasahan
+Tagalog-Waray,train,Tagalog,Waray,Manila,Manila
+Tagalog-Waray,train,Tagalog,Waray,halik,harók
+Tagalog-Waray,train,Tagalog,Waray,Magkano,Pira
+Tagalog-Waray,train,Tagalog,Waray,Cereal,Seryal
+Tagalog-Waray,train,Tagalog,Waray,Pasilyo,Pasilyo
+Tagalog-Waray,train,Tagalog,Waray,kaunti,gutiay
+Tagalog-Waray,train,Tagalog,Waray,Istasyon ng gas,Istasyon Han Gasolina
+Tagalog-Waray,train,Tagalog,Waray,Langgam,Tubak
+Tagalog-Waray,train,Tagalog,Waray,malakas,makusóg
+Tagalog-Waray,train,Tagalog,Waray,X,X
+Tagalog-Waray,train,Tagalog,Waray,matuwa,málipay
+Tagalog-Waray,train,Tagalog,Waray,Enero,Enero
+Tagalog-Waray,train,Tagalog,Waray,Y,Y
+Tagalog-Waray,train,Tagalog,Waray,Negros Oriental,Negros Oriental
+Tagalog-Waray,train,Tagalog,Waray,Negros Occidental,Negros Occidental
+Tagalog-Waray,train,Tagalog,Waray,Magandang Hapon,Maupay Nga Kulop
+Tagalog-Waray,train,Tagalog,Waray,Tanggapan ng sulat,Opisina Han Koreo
+Tagalog-Waray,train,Tagalog,Waray,Pritong itlog,Prito Nga Bunay
+Tagalog-Waray,train,Tagalog,Waray,barkada,sangkáy
+Tagalog-Waray,train,Tagalog,Waray,Dalawang daan,Dosyentos
+Tagalog-Waray,train,Tagalog,Waray,kasal,kasál
+Tagalog-Waray,train,Tagalog,Waray,Komputeran,Kompyuteran
+Tagalog-Waray,train,Tagalog,Waray,Mansanas,Mansanas
+Tagalog-Waray,train,Tagalog,Waray,matalim,matarom
+Tagalog-Waray,train,Tagalog,Waray,mamaya,unina
+Tagalog-Waray,train,Tagalog,Waray,Takdang-Aralin,Pag Gahin
+Tagalog-Waray,train,Tagalog,Waray,Limang daan,Kenyintos
+Tagalog-Waray,train,Tagalog,Waray,iyak,singgaaki
+Tagalog-Waray,train,Tagalog,Waray,Katas ng mansanas,Duga Han Mansanas
+Tagalog-Waray,train,Tagalog,Waray,Namamagang lalamunan,Sakit Ha But-Ol
+Tagalog-Waray,train,Tagalog,Waray,Tindahan,Tiendahan
+Tagalog-Waray,train,Tagalog,Waray,alas onse ng gabi,álas onsehan gab-i
+Tagalog-Waray,train,Tagalog,Waray,Apat,Upat
+Tagalog-Waray,train,Tagalog,Waray,Elebeytor,Elebeytor
+Tagalog-Waray,train,Tagalog,Waray,laro,uyág
+Tagalog-Waray,train,Tagalog,Waray,Kanin,Humay
+Tagalog-Waray,train,Tagalog,Waray,E,E
+Tagalog-Waray,train,Tagalog,Waray,panuorin,ímudon
+Tagalog-Waray,train,Tagalog,Waray,Bohol,Bohol
+Tagalog-Waray,train,Tagalog,Waray,Mainit na tsokolate,Mapasô Nga Tsokolate
+Tagalog-Waray,train,Tagalog,Waray,Leyte,Leyte
+Tagalog-Waray,train,Tagalog,Waray,kahapon,kakulop
+Tagalog-Waray,train,Tagalog,Waray,Abo,Kolor Uban
+Tagalog-Waray,train,Tagalog,Waray,Setyembre,Setyembre
+Tagalog-Waray,train,Tagalog,Waray,manipis,gutiay
+Tagalog-Waray,train,Tagalog,Waray,tuwid ang buhok,tul-id nga buhok
+Tagalog-Waray,train,Tagalog,Waray,Pitong daan,Syete Syentos
+Tagalog-Waray,train,Tagalog,Waray,ngayon,yana
+Tagalog-Waray,train,Tagalog,Waray,Bataan,Bataan
+Tagalog-Waray,train,Tagalog,Waray,Disyembre,Desyembre
+Tagalog-Waray,train,Tagalog,Waray,tikman,tádihan
+Tagalog-Waray,train,Tagalog,Waray,Pilak,Plata
+Tagalog-Waray,train,Tagalog,Waray,alas syete ng gabi,álas syite han gab-i
+Tagalog-Waray,train,Tagalog,Waray,K,K
+Tagalog-Waray,train,Tagalog,Waray,Anim,Unom
+Tagalog-Waray,train,Tagalog,Waray,tawag,gáhoy
+Tagalog-Waray,train,Tagalog,Waray,Komedor,Komedor
+Tagalog-Waray,train,Tagalog,Waray,Luzon,Luzon
+Tagalog-Waray,train,Tagalog,Waray,Doktor,Dóktor
+Tagalog-Waray,train,Tagalog,Waray,alas otso ng gabi,álas otso han gab-i
+Tagalog-Waray,train,Tagalog,Waray,Ubo,Ubo
+Tagalog-Waray,train,Tagalog,Waray,alas singko ng hapon,álas singko han kulop
+Tagalog-Waray,train,Tagalog,Waray,bumili,palit
+Tagalog-Waray,train,Tagalog,Waray,Sa kanya,Ha Kaniya
+Tagalog-Waray,train,Tagalog,Waray,Ilocos Norte,Ilocos Norte
+Tagalog-Waray,train,Tagalog,Waray,Dalawa,Doha
+Tagalog-Waray,train,Tagalog,Waray,Tsaa ng gatas,Tasa Hin Gatas
+Tagalog-Waray,train,Tagalog,Waray,Pampanga,Pampanga
+Tagalog-Waray,train,Tagalog,Waray,malayo,hirayô
+Tagalog-Waray,train,Tagalog,Waray,Alin,Hain
+Tagalog-Waray,train,Tagalog,Waray,Magandang Gabi,Maupay Nga Gab-I
+Tagalog-Waray,train,Tagalog,Waray,Inidoro,Inidoro
+Tagalog-Waray,train,Tagalog,Waray,Bingi,Búngol
+Tagalog-Waray,train,Tagalog,Waray,Paradahan,Parke
+Tagalog-Waray,train,Tagalog,Waray,Davao,Davao
+Tagalog-Waray,train,Tagalog,Waray,Apat na daan,Kwartosyentos
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput apat,Bente Kwatro
+Tagalog-Waray,train,Tagalog,Waray,Kuya,Bugtó Nga Lalake
+Tagalog-Waray,train,Tagalog,Waray,alas diyes ng umaga,álas dyeshan ága
+Tagalog-Waray,train,Tagalog,Waray,Huwebes,Huybes
+Tagalog-Waray,train,Tagalog,Waray,pamangkin na lalaki,umangkón nga lalake
+Tagalog-Waray,train,Tagalog,Waray,Dyip,Dyip
+Tagalog-Waray,train,Tagalog,Waray,Panaderya,Panaderya
+Tagalog-Waray,train,Tagalog,Waray,Daga,Yatot
+Tagalog-Waray,train,Tagalog,Waray,Trak ng basura,Trak Han Basura
+Tagalog-Waray,train,Tagalog,Waray,Kotse,Behikulo
+Tagalog-Waray,train,Tagalog,Waray,Tanghalian,Paningodto
+Tagalog-Waray,train,Tagalog,Waray,inom,inóm
+Tagalog-Waray,train,Tagalog,Waray,Bisikleta,Bisikleta
+Tagalog-Waray,train,Tagalog,Waray,Uminon ng tubig,Nag-Inum Hin Tubig
+Tagalog-Waray,train,Tagalog,Waray,magmasid,mag-inaw
+Tagalog-Waray,train,Tagalog,Waray,Agahan,Pamahaw
+Tagalog-Waray,train,Tagalog,Waray,Hulyo,Hulyo
+Tagalog-Waray,train,Tagalog,Waray,Inumin,Inoma
+Tagalog-Waray,train,Tagalog,Waray,Asukal,Asukar
+Tagalog-Waray,train,Tagalog,Waray,Siquijor,Siquijor
+Tagalog-Waray,train,Tagalog,Waray,Bahay kubo,Payag
+Tagalog-Waray,train,Tagalog,Waray,Tito,Batâ
+Tagalog-Waray,train,Tagalog,Waray,A,A
+Tagalog-Waray,train,Tagalog,Waray,Wala lang,Waray La
+Tagalog-Waray,train,Tagalog,Waray,Zambales,Zambales
+Tagalog-Waray,train,Tagalog,Waray,Ham,Ham
+Tagalog-Waray,train,Tagalog,Waray,Labing walo,Desi-Otso
+Tagalog-Waray,train,Tagalog,Waray,Saan,Diin
+Tagalog-Waray,train,Tagalog,Waray,Paano,Paunan-O
+Tagalog-Waray,train,Tagalog,Waray,Kulay,Kolor
+Tagalog-Waray,train,Tagalog,Waray,G,G
+Tagalog-Waray,train,Tagalog,Waray,M,M
+Tagalog-Waray,train,Tagalog,Waray,nadismaya,magturaw
+Tagalog-Waray,train,Tagalog,Waray,O,O
+Tagalog-Waray,train,Tagalog,Waray,Kahero,Kahero
+Tagalog-Waray,train,Tagalog,Waray,Mangga,Mangga
+Tagalog-Waray,train,Tagalog,Waray,Simbahan,Singbahan
+Tagalog-Waray,train,Tagalog,Waray,Tindahan ng bulaklak,Tindahan Han Bukad
+Tagalog-Waray,train,Tagalog,Waray,paumanhin,pamaribad
+Tagalog-Waray,train,Tagalog,Waray,"Paumanhin, ano iyon?",Pasaylua Ano Adto?
+Tagalog-Waray,train,Tagalog,Waray,bumulong,húnuring
+Tagalog-Waray,train,Tagalog,Waray,Lugar,Dapit
+Tagalog-Waray,train,Tagalog,Waray,Mindanao,Mindanao
+Tagalog-Waray,train,Tagalog,Waray,alas nuwebe ng umaga,álas nuebe han ága
+Tagalog-Waray,train,Tagalog,Waray,Ñ,Ñ
+Tagalog-Waray,train,Tagalog,Waray,alas diyes ng gabi,álas dyes han gab-i
+Tagalog-Waray,train,Tagalog,Waray,Labing anim,Desisais
+Tagalog-Waray,train,Tagalog,Waray,Ilocos Sur,Ilocos Sur
+Tagalog-Waray,train,Tagalog,Waray,matanda,edaran
+Tagalog-Waray,train,Tagalog,Waray,Cebu,Cebu
+Tagalog-Waray,train,Tagalog,Waray,alas kuwatro ng hapon,álas kwatro han kulop
+Tagalog-Waray,train,Tagalog,Waray,salo,sálo
+Tagalog-Waray,train,Tagalog,Waray,Lola,Apóy Nga Babaye
+Tagalog-Waray,train,Tagalog,Waray,Makabayan,Makabayan
+Tagalog-Waray,train,Tagalog,Waray,pagod,magbudlay
+Tagalog-Waray,train,Tagalog,Waray,Bangko,Bangko
+Tagalog-Waray,train,Tagalog,Waray,Monumento,Monumento
+Tagalog-Waray,train,Tagalog,Waray,anong oras na?,áno nga orás yaná?
+Tagalog-Waray,train,Tagalog,Waray,Dalawang linggo,Duha Kasemana
+Tagalog-Waray,train,Tagalog,Waray,Hotdog,Hotdog
+Tagalog-Waray,train,Tagalog,Waray,Siyam na daan,Nuebe Syentos
+Tagalog-Waray,train,Tagalog,Waray,kabisaduhin,túumon
+Tagalog-Waray,train,Tagalog,Waray,Pebrero,Pebrero
+Tagalog-Waray,train,Tagalog,Waray,hinto,umodóng
+Tagalog-Waray,train,Tagalog,Waray,Mula sa,Tikang Ha
+Tagalog-Waray,train,Tagalog,Waray,Isda,Isda
+Tagalog-Waray,train,Tagalog,Waray,Pinto,Purta
+Tagalog-Waray,train,Tagalog,Waray,Magkita tayo mamaya,Magkita Kita Unina
+Tagalog-Waray,train,Tagalog,Waray,magbilang,mag-iháp
+Tagalog-Waray,train,Tagalog,Waray,Apo,Apó
+Tagalog-Waray,train,Tagalog,Waray,partido,Pagkirita
+Tagalog-Waray,train,Tagalog,Waray,Dalawang araw,Doha Kaadlaw
+Tagalog-Waray,train,Tagalog,Waray,Museo,Museo
+Tagalog-Waray,train,Tagalog,Waray,maganda,mahusay
+Tagalog-Waray,train,Tagalog,Waray,Ang,An
+Tagalog-Waray,train,Tagalog,Waray,alas nuwebe ng gabi,álas nuebe han gab-i
+Tagalog-Waray,train,Tagalog,Waray,Hagdanan,Hagdanan
+Tagalog-Waray,train,Tagalog,Waray,poot,mapungot
+Tagalog-Waray,train,Tagalog,Waray,Isang libo,Mil
+Tagalog-Waray,train,Tagalog,Waray,Asin,Asin
+Tagalog-Waray,train,Tagalog,Waray,T,T
+Tagalog-Waray,train,Tagalog,Waray,Inihaw,Mapuot
+Tagalog-Waray,train,Tagalog,Waray,Berde,Berde/Grin
+Tagalog-Waray,train,Tagalog,Waray,Mansyon,Dako Nga Balay
+Tagalog-Waray,train,Tagalog,Waray,Ano,Ano
+Tagalog-Waray,train,Tagalog,Waray,Tita,Dadâ
+Tagalog-Waray,train,Tagalog,Waray,Matematika,Matematika
+Tagalog-Waray,train,Tagalog,Waray,Ginto,Bulawan
+Tagalog-Waray,train,Tagalog,Waray,Sakit ng ulo,Soul San Úlo
+Tagalog-Waray,train,Tagalog,Waray,Iba pa,Iba Pa
+Tagalog-Waray,train,Tagalog,Waray,umaga,aga
+Tagalog-Waray,train,Tagalog,Waray,NUeva Ecija,Nueva Ecija
+Tagalog-Waray,train,Tagalog,Waray,tigil,álto
+Tagalog-Waray,train,Tagalog,Waray,Katas ng kahel,Duga Han Aranghita
+Tagalog-Waray,train,Tagalog,Waray,Unang palapag,Una Nga Andana
+Tagalog-Waray,train,Tagalog,Waray,Kapehan,Kapehan
+Tagalog-Waray,train,Tagalog,Waray,Uminom ng gatas,Bag-Inum Hin Gatas
+Tagalog-Waray,train,Tagalog,Waray,Filipino,Filipino
+Tagalog-Waray,train,Tagalog,Waray,Kulungan,Karsel
+Tagalog-Waray,train,Tagalog,Waray,pulong,Pulong
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput dalawa,Bent Dos
+Tagalog-Waray,train,Tagalog,Waray,Sari-sari store,Iba-Iba Nga Paninda
+Tagalog-Waray,train,Tagalog,Waray,Tatlong daan,Tresyentos
+Tagalog-Waray,train,Tagalog,Waray,pamangkin na babae,umangkón nga babaye
+Tagalog-Waray,train,Tagalog,Waray,Itim,Itom
+Tagalog-Waray,train,Tagalog,Waray,C,C
+Tagalog-Waray,train,Tagalog,Waray,F,F
+Tagalog-Waray,train,Tagalog,Waray,Kumusta ka na?,Kumusta Ka Na?
+Tagalog-Waray,train,Tagalog,Waray,maramdaman,madúmut
+Tagalog-Waray,train,Tagalog,Waray,Balahibo,Barahibo
+Tagalog-Waray,train,Tagalog,Waray,Siyamnapu,Nobenta
+Tagalog-Waray,train,Tagalog,Waray,Garahe,Garahe
+Tagalog-Waray,train,Tagalog,Waray,Isang linggo,Semana
+Tagalog-Waray,train,Tagalog,Waray,At,Ngan
+Tagalog-Waray,train,Tagalog,Waray,Parke,Plasa
+Tagalog-Waray,train,Tagalog,Waray,asawang babae,asawa nga babaye
+Tagalog-Waray,train,Tagalog,Waray,H,H
+Tagalog-Waray,train,Tagalog,Waray,takbo,dumalagan
+Tagalog-Waray,train,Tagalog,Waray,mga bata,Mga Batá
+Tagalog-Waray,train,Tagalog,Waray,Labing lima,Kinse
+Tagalog-Waray,train,Tagalog,Waray,alas otso ng umaga,álas utso han ága
+Tagalog-Waray,train,Tagalog,Waray,Trak ng bumbero,Trak Han Bumbero
+Tagalog-Waray,train,Tagalog,Waray,Dalawang taon,Doha Katuig
+Tagalog-Waray,train,Tagalog,Waray,Isang daan,Syen
+Tagalog-Waray,train,Tagalog,Waray,Walo,Walo
+Tagalog-Waray,train,Tagalog,Waray,sorpresa,pag-ulhag
+Tagalog-Waray,train,Tagalog,Waray,ala una ng hapon,álas una han kulop
+Tagalog-Waray,train,Tagalog,Waray,N,N
+Tagalog-Waray,train,Tagalog,Waray,Magulang,Kag-Anák
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput isa,Bente Uno
+Tagalog-Waray,train,Tagalog,Waray,Kusina,Kusina
+Tagalog-Waray,train,Tagalog,Waray,pag-aaral,pag-arám
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput anim,Bente Sais
+Tagalog-Waray,train,Tagalog,Waray,isip,húna-huna
+Tagalog-Waray,train,Tagalog,Waray,Helikopter,Helikopter
+Tagalog-Waray,train,Tagalog,Waray,Paniki,Kulalaknit
+Tagalog-Waray,train,Tagalog,Waray,Akin,Akon
+Tagalog-Waray,train,Tagalog,Waray,Pitumpu,Setenta
+Tagalog-Waray,train,Tagalog,Waray,Rosa,Rosas
+Tagalog-Waray,train,Tagalog,Waray,Miyerkules,Miyerkoles
+Tagalog-Waray,train,Tagalog,Waray,Kompyuter,Kompyuter
+Tagalog-Waray,train,Tagalog,Waray,Dalawang buwan,Doha Kabulan
+Tagalog-Waray,train,Tagalog,Waray,Anumang,Bisan Ano
+Tagalog-Waray,train,Tagalog,Waray,Palengke,Merkado
+Tagalog-Waray,train,Tagalog,Waray,oo,oo
+Tagalog-Waray,train,Tagalog,Waray,Hekasi,Hekasi
+Tagalog-Waray,train,Tagalog,Waray,Aakyat,Pasagka
+Tagalog-Waray,train,Tagalog,Waray,Sakit,Ul-Ol
+Tagalog-Waray,train,Tagalog,Waray,sayaw,sayaw
+Tagalog-Waray,train,Tagalog,Waray,Pagupitan,Paarutan
+Tagalog-Waray,train,Tagalog,Waray,pinsan,Patód
+Tagalog-Waray,train,Tagalog,Waray,opo,opo
+Tagalog-Waray,train,Tagalog,Waray,Ah ganun,Aw Amo
+Tagalog-Waray,train,Tagalog,Waray,Pulot pukyutan,Purot-Putyukan
+Tagalog-Waray,train,Tagalog,Waray,P,P
+Tagalog-Waray,train,Tagalog,Waray,Bakit,Kay Ano
+Tagalog-Waray,train,Tagalog,Waray,magaspang,garang-gasang
+Tagalog-Waray,train,Tagalog,Waray,Sa,Sa
+Tagalog-Waray,train,Tagalog,Waray,Samar,Samar
+Tagalog-Waray,train,Tagalog,Waray,Hunyo,Hunyo
+Tagalog-Waray,train,Tagalog,Waray,matangkad,hitaas
+Tagalog-Waray,train,Tagalog,Waray,Ate,Bugtó Nga Babaye
+Tagalog-Waray,train,Tagalog,Waray,Pagkain,Pagkaon
+Tagalog-Waray,train,Tagalog,Waray,Adobo,Adobo
+Tagalog-Waray,train,Tagalog,Waray,Zamboanga,Zamboanga
+Tagalog-Waray,train,Tagalog,Waray,Bus,Bus
+Tagalog-Waray,train,Tagalog,Waray,Tatlumpu,Trenta
+Tagalog-Waray,train,Tagalog,Waray,limbag,límbag
+Tagalog-Waray,train,Tagalog,Waray,Diarrhea,Básyar
+Tagalog-Waray,train,Tagalog,Waray,Marso,Marso
+Tagalog-Waray,train,Tagalog,Waray,Labing tatlo,Trese
+Tagalog-Waray,train,Tagalog,Waray,Pandesal,Pandesal
+Tagalog-Waray,train,Tagalog,Waray,B,B
+Tagalog-Waray,train,Tagalog,Waray,munti,gutiay
+Tagalog-Waray,train,Tagalog,Waray,Isang taon,Sayô Katuig
+Tagalog-Waray,train,Tagalog,Waray,Hapunan,Pangiklop
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput lima,Bente Singko
+Tagalog-Waray,train,Tagalog,Waray,Dalawamput pito,Bente Syete
+Tagalog-Waray,train,Tagalog,Waray,Upuan,Silya
+Tagalog-Waray,train,Tagalog,Waray,Labahan,Labahan
+Tagalog-Waray,train,Tagalog,Waray,Paliparan,Paluparan
+Tagalog-Waray,train,Tagalog,Waray,lumapit,húnarani
+Tagalog-Waray,train,Tagalog,Waray,tinedyer,ulitawohay
+Tagalog-Waray,train,Tagalog,Waray,maaraw,kat-adlaw
+Tagalog-Waray,train,Tagalog,Waray,Gutom,Gutom
+Tagalog-Waray,train,Tagalog,Waray,Ninang,Iróy Ha Bunyág
+Tagalog-Waray,train,Tagalog,Waray,D,D
+Tagalog-Waray,train,Tagalog,Waray,Labing siyam,Desinuebe
+Tagalog-Waray,train,Tagalog,Waray,magluto,maglutó
+Tagalog-Waray,train,Tagalog,Waray,Imbakan,Bodega
+Tagalog-Waray,train,Tagalog,Waray,Sala,Sala
+Tagalog-Waray,train,Tagalog,Waray,Pancit,Pansit
+Tagalog-Waray,train,Tagalog,Waray,Botika,Parmasiya
+Tagalog-Waray,train,Tagalog,Waray,Isang buwan,Bulan
+Tagalog-Waray,train,Tagalog,Waray,Sino,Hin-O
+Tagalog-Waray,train,Tagalog,Waray,paghanga,pagbilib/paghánga
+Tagalog-Waray,train,Tagalog,Waray,mataba,matambok
+Tagalog-Waray,train,Tagalog,Waray,Kumain,Kumaon
+Tagalog-Waray,train,Tagalog,Waray,alam,áram
+Tagalog-Waray,train,Tagalog,Waray,Animnapu,Saysenta
+Tagalog-Waray,train,Tagalog,Waray,Magandang Umaga,Maupay Nga Aga
+Tagalog-Waray,train,Tagalog,Waray,Motorsiklo,Motorsiklo
+Tagalog-Waray,train,Tagalog,Waray,Pero,Pero
+Tagalog-Waray,train,Tagalog,Waray,Masbate,Masbate
+Tagalog-Waray,train,Tagalog,Waray,maulan,kat-uran
+Tagalog-Waray,train,Tagalog,Waray,lakad,lákaw
+Tagalog-Waray,train,Tagalog,Waray,maglaro,mag--uyág
+Tagalog-Waray,train,Tagalog,Waray,mababa,hamubo
+Tagalog-Waray,train,Tagalog,Waray,Bahay paupahan,Papletihan Nga Balay
+Tagalog-Waray,train,Tagalog,Waray,Maliit na pamilihan,Gutiay Nga Merkado
+Tagalog-Waray,train,Tagalog,Waray,Z,Z
+Tagalog-Waray,train,Tagalog,Waray,Katas ng kalamansi,Duga Han Apog
+Tagalog-Waray,train,Tagalog,Waray,amoyin,báhuon
+Tagalog-Waray,train,Tagalog,Waray,Visayas,Visayas
+Tagalog-Waray,train,Tagalog,Waray,Saging,Saging
+Tagalog-Waray,train,Tagalog,Waray,W,W
+Tagalog-Waray,train,Tagalog,Waray,nalilito,nálilisang
+Tagalog-Waray,train,Tagalog,Waray,Ano pangalan mo?,Ano Im Ngaran?
+Tagalog-Waray,train,Tagalog,Waray,buntis,burod
+Tagalog-Waray,train,Tagalog,Waray,Ospital,Ospital
+Tagalog-Waray,train,Tagalog,Waray,Malaking pamilihan,Dako Nga Merkado
+Tagalog-Waray,train,Tagalog,Waray,Inihaw na manok,Sinugba Nga Manuk
+Tagalog-Waray,train,Tagalog,Waray,Banyo,Kasilyas
+Tagalog-Waray,train,Tagalog,Waray,tanggapin,karawata
+Tagalog-Waray,train,Tagalog,Waray,Kape,Kape
+Tagalog-Waray,train,Tagalog,Waray,Bata,Batá
+Tagalog-Waray,train,Tagalog,Waray,tanghali,udto
+Tagalog-Waray,train,Tagalog,Waray,gising,máta
+Tagalog-Waray,train,Tagalog,Waray,Mayonesa,Mayonesa
+Tagalog-Waray,train,Tagalog,Waray,Ukay-ukay,Ukay-Ukay
+Tagalog-Waray,train,Tagalog,Waray,Kahel,Kahel
+Tagalog-Waray,train,Tagalog,Waray,Damitan,Badu-An
+Tagalog-Waray,train,Tagalog,Waray,L,L
+Tagalog-Waray,train,Tagalog,Waray,Linggo,Domingo
+Tagalog-Waray,train,Tagalog,Waray,Tatay,Amáy
+Tagalog-Waray,train,Tagalog,Waray,Pritong manok,Prito Nga Manuk
+Tagalog-Waray,train,Tagalog,Waray,Ingles,Ingles
+Tagalog-Waray,train,Tagalog,Waray,alas dose ng madaling araw,álas dose han aga
+Tagalog-Waray,train,Tagalog,Waray,Nanay,Iróy
+Tagalog-Waray,train,Tagalog,Waray,alas dos ng hapon,álas dos han kulop
+Tagalog-Waray,train,Tagalog,Waray,Pancake,Pancake
+Tagalog-Waray,train,Tagalog,Waray,basa,basaha
+Tagalog-Waray,train,Tagalog,Waray,Tarlac,Tarlac
+Tagalog-Waray,train,Tagalog,Waray,Relihiyon,Relihiyon
+Tagalog-Waray,train,Tagalog,Waray,Apatnapu,Kwarenta
+Tagalog-Waray,train,Tagalog,Waray,Lumpia,Lumpia
+Tagalog-Waray,train,Tagalog,Waray,Sementeryo,Kamposanto
+Tagalog-Waray,train,Tagalog,Waray,alas tres ng hapon,álas tres han kulop
+Tagalog-Waray,train,Tagalog,Waray,Q,Q
+Tagalog-Waray,train,Tagalog,Waray,Bintana,Tangboan
+Tagalog-Waray,train,Tagalog,Waray,Billion,Bilyon
+Tagalog-Waray,train,Tagalog,Waray,Ikatatlong palapag,Ikatulo Nga Andana
+Tagalog-Waray,train,Tagalog,Waray,Isa,Usa
+Tagalog-Waray,train,Tagalog,Waray,Lima,Lima
+Tagalog-Waray,train,Tagalog,Waray,marumi,mahugaw
+Tagalog-Waray,train,Tagalog,Waray,tulog,túrug
+Tagalog-Waray,train,Tagalog,Waray,Katas/dyus,Katas Han Dyus
+Tagalog-Waray,train,Tagalog,Waray,Eroplano,Idroplano
+Tagalog-Waray,train,Tagalog,Waray,Pabrika,Pabrika
+Tagalog-Waray,train,Tagalog,Waray,Baboy,Karne Han Baboy
+Tagalog-Waray,train,Tagalog,Waray,tawa,tawá
+Tagalog-Waray,train,Tagalog,Waray,kyut,kyut/máhusay
+Tagalog-Waray,train,Tagalog,Waray,Ako,Ako
+Tagalog-Waray,train,Tagalog,Waray,malambot,mahumok
+Tagalog-Waray,train,Tagalog,Waray,Tinapay,Tinapay
+Tagalog-Waray,train,Tagalog,Waray,Pula,Pula
+Tagalog-Waray,train,Tagalog,Waray,malapit,hirani
+Tagalog-Waray,train,Tagalog,Waray,pag-ehersisyo,pag-ehersisyó
+Tagalog-Waray,train,Tagalog,Waray,Jam,Haliya
+Tagalog-Waray,train,Tagalog,Waray,Lunes,Lunes
+Tagalog-Waray,train,Tagalog,Waray,Inihaw na baboy,Mapuot Ha Baboy
+Tagalog-Waray,train,Tagalog,Waray,Hotel,Hotel
+Tagalog-Waray,train,Tagalog,Waray,Emerhensiya,Emerhensiya
+Tagalog-Waray,test,Tagalog,Waray,Araw,Adlaw
+Tagalog-Waray,test,Tagalog,Waray,Kastilyo,Kastilyo
+Tagalog-Waray,test,Tagalog,Waray,Tatlong araw,Tulo Kaadlaw
+Tagalog-Waray,test,Tagalog,Waray,Klinika,Klinika
+Tagalog-Waray,test,Tagalog,Waray,Kayumangi,Kayumanggi
+Tagalog-Waray,test,Tagalog,Waray,Anim na daan,Saysyentos
+Tagalog-Waray,test,Tagalog,Waray,mahal,humigugma
+Tagalog-Waray,test,Tagalog,Waray,kinig,pamati
+Tagalog-Waray,test,Tagalog,Waray,Bulaklak,Bukad
+Tagalog-Waray,test,Tagalog,Waray,Labing dalawa,Dose
+Tagalog-Waray,test,Tagalog,Waray,Oktubre,Oktubre
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pamangkin Na Babae,Hinaglos Nga Babaye
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,nag-iisa,hugpong
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Nobyembre,Nobyembre
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,dalawa,dalawa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ayos ka lang,Maayo ka bala
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Walang anuman,Walang anuman
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pamangkin Na Lalaki,Hinablos Nga Lalaki
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Sabado,Sabado
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,B,B
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,P,P
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Q,Q
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Naiintindihan mo ba,Ka intindi ka ba
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Naiintindihan ko,Indi ko ka
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,pag aalala,tingala
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,tampo,sunggod
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,malungkot,masubo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kailan,San-o
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing siyam,labing siyam
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hindi ko naiintindihan,Indo ko ka intindi
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,H,H
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Mayo,Mayo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,antok,toyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,pagod,kapoy
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Maligayang Pasko,Masadya nga Paskwa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hindi,Indi
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Tulongan ako,Bulig
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Lola,Lola
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Sang ayon ako,Kunporme ako
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,masaya,masadya
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Siguro,Basi
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Nobyo,Nobyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ayos,Ayo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hindi ko alam,Wala ko kabalo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Miyerkules,Miyerkules
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,kilig,kurog
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,M,M
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hello,Hello
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Z,Z
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,gutom,gutom
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,emosyon,balatyagon
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,gigil,umol
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Agusto,Agosto
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Apo,Apo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Magkano,Pila
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Tita,Tiya
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kasintahan,Kahagugma
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,pakiramdam,nabatyagan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,isang daan,isang daan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Sino,Sin-o
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Marso,Marso
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,gusto,gusto
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hindi ako sang ayon,Di ako mag sugot
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Gusto ko,Gusto ni
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing lima,labing lima
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ayos lang ako,Ayos lang ako
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Magandang hapon,Maayong hapon
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Alin,Diin
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pinsan,Pakaisa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,galit,akig
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,walo,walo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,takot,hadlok
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Asawang Lalaki,Bana
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Paalam,Paalam
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Paano,Paano
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Magandang gabi,Maayong gab-e
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,O,O
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,pagmamahal,paghigugma
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,bagot,ugot
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,limampu,limampu
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pamilya,Pamilya
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing pito,labing pito
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,S,S
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Mga Bata,Kabataan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pakiusap,Palihog
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Tito,Tiyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pakiulit,Paliwat
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Masama ang pakiramdam ko,Malain ang pamatyag ko
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Nobya,Nobya
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,sabik,matinguhaon
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,A,A
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,L,L
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,G,G
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,N,N
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Mahal kita,Ginahigugma ta ka
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Nakatira ako sa,Nagapuyo ako sa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ingat,Halong andam
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,lima,lima
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,X,X
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Y,Y
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,ekspresyon,ekspresyon
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Lalaki,Lalaki
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,May sakit ako,Nagamasakit ako
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,selos,pangimon
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Magulang,Ginikanan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ako ay bingi,Ako ay bingi
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Anong ginagawa mo,Anong ginahimo mo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,C,C
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,may sakit,may balatian
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,isa,isa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Sanggol,Lapsag
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Saan ka nagmula,Diin ka naghalin
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,nalilito,galingin
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing isa,labing isa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Anong nangyari,Ano natabo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ilan,Pila
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,K,K
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing tatlo,labing tatlo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,R,R
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hulyo,Hulyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,U,U
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,ipinagmamalaki,ginapabugal
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,apat,apat
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ano,Ano
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Setyembre,Setyembre
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Alam ko,Ammok
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Paumanhin,Pasayluha ako
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,D,D
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,T,T
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Bata,Bata
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,uhaw,uhaw
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ilang taon ka na,Pila ka tuig edad mo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ate,Manang
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Babae,Babaye
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Linggo,Linggo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kumusta ka,Kumusta ka
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pagbati,Pahalipay
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Hunyo,Hunyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Buntis,Busong
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,pito,pito
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,dalawampu,dalawampu
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,animnapu,animnapu
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Martes,Martes
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Tatay,Tatay
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,F,F
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Lunes,Lunes
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Abril,Abril
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,siyam,siyam
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Anak Na Lalaki,Bata Nga Babaye
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kuya,Manong
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Maligayang Kaarawan,Masadya nga Kaadlawan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Saan ka nakatira,Diin ka ga puyo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Disyembre,Disyembre
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kasal,Kasal
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing walo,labing walo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ano ang pangalan mo,Ang imo ngalan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,sampu,sampu
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,J,J
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Saan ka papunta,Diin ka makadto
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Enero,Enero
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,gulat,kibot
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Kita tayo,Kit-anayta
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing apat,labing apat
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,V,V
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Magandang umaga,Maayong aga
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,labing anim,labing anim
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Huwebes,Huwebes
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,anim,anim
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,I,I
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,W,W
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Pebrero,Pebrero
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Asawang Babae,Asawa
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,apatnapu,apatnapu
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,kaba,kulbaan
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Ang pangalan ko,Ang ngalan ko
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,hiya,huya
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Masayang makikila ka,Nalipay ako nga nakilala ka
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Salamat,Salamat
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,E,E
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Tinedyer,Pamatan-On
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Bakit,Nga-a
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,tatlo,tatlo
+Tagalog-Hiligaynon,train,Filipino,Hiligaynon,Anak Na Babae,Bata Nga Lalaki
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,labing dalawa,labing dalawa
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Walang problema,La Palaktakon
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Lolo,Lolo
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Nagmula ako,Halin ako
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Saan,Diin
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Maligayang Anibersaryo,Masadya nga Anibersaryo
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,inis,suya
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Hindi ko gusto,Indi ko gusto
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Oo,Huo
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,NG,NG
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Mabuti naman ako,Ayo man ako
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Oktubre,Oktubre
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Maligayang Bagong Taon,Masadya nga Bag-ong Tuig
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,walumpu,walumpu
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Nanay,Nanay
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,pitumpu,pitumpu
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Gusto kita,Giusto ko ikaw
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,tatlumpu,tatlumpu
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,siyamnapu,siyamnapu
+Tagalog-Hiligaynon,test,Filipino,Hiligaynon,Biyernes,Biyernes
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Maligayang Bagong Taon,Masayang Bayung Banwa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kita tayo,Mikit kata
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hello,Hello
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Q,Q
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing dalawa,apulu at adwa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,malungkot,malungkut
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Sabado,Sabadu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Agusto,Agosto
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing anim,apulu at anam
+Tagalog-Kapampangan,train,Filipino,Kapampangan,tampo,tampu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hulyo,Hulyu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,takot,takut
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Y,Y
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Sanggol,Bingut
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ilan,Pilang
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nobyo,Tawu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,pitumpu,pitu a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kuya,Koya
+Tagalog-Kapampangan,train,Filipino,Kapampangan,antok,mitutundu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ingat,Mimingat
+Tagalog-Kapampangan,train,Filipino,Kapampangan,may sakit,masakit
+Tagalog-Kapampangan,train,Filipino,Kapampangan,uhaw,kawa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,isa,metung
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nakatira ako sa,Manuknangan ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,walo,walu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,O,O
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Masama ang pakiramdam ko,Marok ku panamdaman
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Lolo,Ingkung
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Miyerkules,Miyerkules
+Tagalog-Kapampangan,train,Filipino,Kapampangan,hiya,miskaming
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nobyembre,Nobyembre
+Tagalog-Kapampangan,train,Filipino,Kapampangan,ekspresyon,pamanyambut
+Tagalog-Kapampangan,train,Filipino,Kapampangan,emosyon,pamamugse
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Apo,Apu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Maligayang Kaarawan,Masayang Kebaitan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,isang daan,metung a dalan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,V,V
+Tagalog-Kapampangan,train,Filipino,Kapampangan,limampu,lima a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Tinedyer,Kaynakan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Biyernes,Biyernes
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hindi,Ali
+Tagalog-Kapampangan,train,Filipino,Kapampangan,ipinagmamalaki,pagmaragul
+Tagalog-Kapampangan,train,Filipino,Kapampangan,A,A
+Tagalog-Kapampangan,train,Filipino,Kapampangan,bagot,maynip
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Magulang,Pengari
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kumusta ka,Komusta ka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Asawang Lalaki,Asawang Lalaki
+Tagalog-Kapampangan,train,Filipino,Kapampangan,nalilito,mangalituan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,sampu,apulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,apat,apat
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Lola,Impo
+Tagalog-Kapampangan,train,Filipino,Kapampangan,B,B
+Tagalog-Kapampangan,train,Filipino,Kapampangan,T,T
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ayos,Ayus
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Tulongan ako,Kailangan ku ing saup
+Tagalog-Kapampangan,train,Filipino,Kapampangan,siyamnapu,siyam a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Marso,Marso
+Tagalog-Kapampangan,train,Filipino,Kapampangan,M,M
+Tagalog-Kapampangan,train,Filipino,Kapampangan,walumpu,walu a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Tita,Dara
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Mga Bata,Deng Anak
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kasintahan,Tawu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Siguro,Malyari
+Tagalog-Kapampangan,train,Filipino,Kapampangan,N,N
+Tagalog-Kapampangan,train,Filipino,Kapampangan,gigil,gigil
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Naiintindihan ko,Ayntindyan ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,pagmamahal,lugud
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Mayo,Mayo
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing walo,apulu at walu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Anong nangyari,Nanung milyari
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hindi ako sang ayon,Eku ku sang-ayun
+Tagalog-Kapampangan,train,Filipino,Kapampangan,galit,mimwa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing isa,apulu at metung
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Magandang hapon,Mayap a gatpanapun
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pamilya,Pamilya
+Tagalog-Kapampangan,train,Filipino,Kapampangan,kilig,kilig
+Tagalog-Kapampangan,train,Filipino,Kapampangan,inis,mingisis
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pebrero,Pebrero
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Magkano,Magkanu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hindi ko alam,Eku ku balu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Oo,Awa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,P,P
+Tagalog-Kapampangan,train,Filipino,Kapampangan,kaba,karug
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Bata,Anak
+Tagalog-Kapampangan,train,Filipino,Kapampangan,W,W
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Paalam,Pañapani
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Oktubre,Oktubre
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Sino,Ninu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,I,I
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pinsan,Pisan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,C,C
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Saan,Nokarin
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Sang ayon ako,Sang-ayun ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ayos ka lang,Ayus kamo
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pamangkin Na Lalaki,Pangunakan A Lalaki
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Lunes,Lunes
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Alam ko,Balu ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,tatlo,atlu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ilang taon ka na,Pilan nakang banwa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Anong ginagawa mo,Nanu ing gagawan mu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pakiusap,Makisabi
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Lalaki,Lalaki
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ano,Nanu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pakiulit,Pakiulit pin
+Tagalog-Kapampangan,train,Filipino,Kapampangan,anim,anam
+Tagalog-Kapampangan,train,Filipino,Kapampangan,sabik,sabik
+Tagalog-Kapampangan,train,Filipino,Kapampangan,X,X
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Maligayang Anibersaryo,Masayang Anibersaryo
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Saan ka nagmula,Taga nokarin ka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Magandang gabi,Mayap a bengi
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Paano,Makananu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,K,K
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hindi ko naiintindihan,Eku ku ayntindyan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Buntis,Manbuktut
+Tagalog-Kapampangan,train,Filipino,Kapampangan,animnapu,anam a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Pagbati,Pagbati
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Abril,Abril
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Masayang makikila ka,Masaya kung akilala daka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Setyembre,Setyembre
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hindi ko gusto,Eku ku buri
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Saan ka nakatira,Nokarin ka makatuknang
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Enero,Enero
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Walang problema,Alang problema
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Linggo,Duminggu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ako ay bingi,bingi ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,U,U
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Maligayang Pasko,Maligayang Pasku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,nag-iisa,magdili-dili
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ano ang pangalan mo,Nanu ing lagyu mu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,pagod,pagal
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing lima,apulu at lima
+Tagalog-Kapampangan,train,Filipino,Kapampangan,gutom,maranup
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Paumanhin,Pasensya na
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nobya,Tawu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,E,E
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ang pangalan ko,Ing lagyu ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing tatlo,apulu at atlu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Huwebes,Huwebes
+Tagalog-Kapampangan,train,Filipino,Kapampangan,L,L
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Gusto ko,Buri ke
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nanay,Ima
+Tagalog-Kapampangan,train,Filipino,Kapampangan,pag aalala,migaganaka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Tatay,Tatang
+Tagalog-Kapampangan,train,Filipino,Kapampangan,NG,NG
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Magandang umaga,Mayap a abak
+Tagalog-Kapampangan,train,Filipino,Kapampangan,gulat,mebigla
+Tagalog-Kapampangan,train,Filipino,Kapampangan,G,G
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing apat,apulu at apat
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Ate,Atsi
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Naiintindihan mo ba,Ayntindyan mu ba
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Gusto kita,Buri daka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Z,Z
+Tagalog-Kapampangan,train,Filipino,Kapampangan,tatlumpu,talupu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,dalawa,adwa
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Mahal kita,Kaluguran daka
+Tagalog-Kapampangan,train,Filipino,Kapampangan,apatnapu,apat a pulu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,R,R
+Tagalog-Kapampangan,train,Filipino,Kapampangan,D,D
+Tagalog-Kapampangan,train,Filipino,Kapampangan,pito,pitu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,selos,mangakilas
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Anak Na Babae,Anak A Babai
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Martes,Martes
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Mabuti naman ako,Masanmetung ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,labing pito,apulu at pitu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,gusto,buri
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kasal,Kasal
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Nagmula ako,Ibat ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Kailan,Kapilan
+Tagalog-Kapampangan,train,Filipino,Kapampangan,J,J
+Tagalog-Kapampangan,train,Filipino,Kapampangan,May sakit ako,Masakit ku
+Tagalog-Kapampangan,train,Filipino,Kapampangan,Hunyo,Hunyu
+Tagalog-Kapampangan,train,Filipino,Kapampangan,lima,lima
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Saan ka papunta,Nokarin ka munta
+Tagalog-Kapampangan,test,Filipino,Kapampangan,dalawampu,duplu
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Pamangkin Na Babae,Pangunakan A Babai
+Tagalog-Kapampangan,test,Filipino,Kapampangan,siyam,siyam
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Alin,Sanu
+Tagalog-Kapampangan,test,Filipino,Kapampangan,masaya,masaya
+Tagalog-Kapampangan,test,Filipino,Kapampangan,labing siyam,apulu at siyam
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Salamat,Salamat
+Tagalog-Kapampangan,test,Filipino,Kapampangan,F,F
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Walang anuman,Alang nanuman
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Babae,Babai
+Tagalog-Kapampangan,test,Filipino,Kapampangan,H,H
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Anak Na Lalaki,Anak A Lalaki
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Asawang Babae,Asawang Babai
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Disyembre,Disyembre
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Ayos lang ako,Okey mu
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Bakit,Bakit
+Tagalog-Kapampangan,test,Filipino,Kapampangan,Tito,Bapa
+Tagalog-Kapampangan,test,Filipino,Kapampangan,S,S
+Tagalog-Kapampangan,test,Filipino,Kapampangan,pakiramdam,panamdam
+Tagalog-Waray,vocab,Tagalog,Waray,aalis,malakat
+Tagalog-Waray,vocab,Tagalog,Waray,abaniko,paypay
+Tagalog-Waray,vocab,Tagalog,Waray,abugado,abugado
+Tagalog-Waray,vocab,Tagalog,Waray,abo,abo
+Tagalog-Waray,vocab,Tagalog,Waray,agahan,pamahaw
+Tagalog-Waray,vocab,Tagalog,Waray,ahas,halas
+Tagalog-Waray,vocab,Tagalog,Waray,akbay,sangbay
+Tagalog-Waray,vocab,Tagalog,Waray,akin,akon
+Tagalog-Waray,vocab,Tagalog,Waray,ako,ako
+Tagalog-Waray,vocab,Tagalog,Waray,akusa,akusar
+Tagalog-Waray,vocab,Tagalog,Waray,alagaan,atamanon
+Tagalog-Waray,vocab,Tagalog,Waray,alak,irimnon
+Tagalog-Waray,vocab,Tagalog,Waray,alam,maaram
+Tagalog-Waray,vocab,Tagalog,Waray,alikabok,taputapo
+Tagalog-Waray,vocab,Tagalog,Waray,alila,uripon
+Tagalog-Waray,vocab,Tagalog,Waray,alis,lakat
+Tagalog-Waray,vocab,Tagalog,Waray,alisin,tanggalon
+Tagalog-Waray,vocab,Tagalog,Waray,alon,balud
+Tagalog-Waray,vocab,Tagalog,Waray,alupihan,ulalahipan
+Tagalog-Waray,vocab,Tagalog,Waray,ama,amay
+Tagalog-Waray,vocab,Tagalog,Waray,amin,amon
+Tagalog-Waray,vocab,Tagalog,Waray,amo,agaron
+Tagalog-Waray,vocab,Tagalog,Waray,anay,anay
+Tagalog-Waray,vocab,Tagalog,Waray,anim,unom
+Tagalog-Waray,vocab,Tagalog,Waray,anino,lambung
+Tagalog-Waray,vocab,Tagalog,Waray,ang,an
+Tagalog-Waray,vocab,Tagalog,Waray,angkan,tulin
+Tagalog-Waray,vocab,Tagalog,Waray,ano,ano
+Tagalog-Waray,vocab,Tagalog,Waray,apat,upat
+Tagalog-Waray,vocab,Tagalog,Waray,apoy,kalayo
+Tagalog-Waray,vocab,Tagalog,Waray,araw,adlaw
+Tagalog-Waray,vocab,Tagalog,Waray,asim,aslom
+Tagalog-Waray,vocab,Tagalog,Waray,aso,ayam
+Tagalog-Waray,vocab,Tagalog,Waray,asukal,asukar
+Tagalog-Waray,vocab,Tagalog,Waray,at,ug
+Tagalog-Waray,vocab,Tagalog,Waray,atay,atay
+Tagalog-Waray,vocab,Tagalog,Waray,ate,ate
+Tagalog-Waray,vocab,Tagalog,Waray,atin,aton
+Tagalog-Waray,vocab,Tagalog,Waray,atsay,binata
+Tagalog-Waray,vocab,Tagalog,Waray,baba,sulang
+Tagalog-Waray,vocab,Tagalog,Waray,babae,babaye
+Tagalog-Waray,vocab,Tagalog,Waray,babasagin,maburuong
+Tagalog-Waray,vocab,Tagalog,Waray,bading,bayot
+Tagalog-Waray,vocab,Tagalog,Waray,bahay,balay
+Tagalog-Waray,vocab,Tagalog,Waray,bagang,bag-ang
+Tagalog-Waray,vocab,Tagalog,Waray,bagay,butang
+Tagalog-Waray,vocab,Tagalog,Waray,bagay,angay
+Tagalog-Waray,vocab,Tagalog,Waray,bagoong,ginamos
+Tagalog-Waray,vocab,Tagalog,Waray,baitang,hagdan
+Tagalog-Waray,vocab,Tagalog,Waray,baka,bangin
+Tagalog-Waray,vocab,Tagalog,Waray,bakal,puthaw
+Tagalog-Waray,vocab,Tagalog,Waray,bakit,kay ano
+Tagalog-Waray,vocab,Tagalog,Waray,balae,balaye
+Tagalog-Waray,vocab,Tagalog,Waray,balahibo,barahibo
+Tagalog-Waray,vocab,Tagalog,Waray,balat,panit
+Tagalog-Waray,vocab,Tagalog,Waray,balbas,barbas
+Tagalog-Waray,vocab,Tagalog,Waray,balbon,barbon
+Tagalog-Waray,vocab,Tagalog,Waray,balikat,sugbong
+Tagalog-Waray,vocab,Tagalog,Waray,baliktad,balikad
+Tagalog-Waray,vocab,Tagalog,Waray,balimbing,malimbin
+Tagalog-Waray,vocab,Tagalog,Waray,balisong,dipang
+Tagalog-Waray,vocab,Tagalog,Waray,baliw,lurong
+Tagalog-Waray,vocab,Tagalog,Waray,baluktot,kulubikob
+Tagalog-Waray,vocab,Tagalog,Waray,banlag,manukon
+Tagalog-Waray,vocab,Tagalog,Waray,banlaw,bulyas
+Tagalog-Waray,vocab,Tagalog,Waray,bangka,baluto
+Tagalog-Waray,vocab,Tagalog,Waray,baon,balon
+Tagalog-Waray,vocab,Tagalog,Waray,barya,sinsilyo
+Tagalog-Waray,vocab,Tagalog,Waray,basa,basa
+Tagalog-Waray,vocab,Tagalog,Waray,basa,mahulos
+Tagalog-Waray,vocab,Tagalog,Waray,basag,buong
+Tagalog-Waray,vocab,Tagalog,Waray,basket,basket
+Tagalog-Waray,vocab,Tagalog,Waray,bata,bata
+Tagalog-Waray,vocab,Tagalog,Waray,batas,balaud
+Tagalog-Waray,vocab,Tagalog,Waray,bawang,ahos
+Tagalog-Waray,vocab,Tagalog,Waray,bayabas,mayabas
+Tagalog-Waray,vocab,Tagalog,Waray,bayad,bayad
+Tagalog-Waray,vocab,Tagalog,Waray,bayag,bunay
+Tagalog-Waray,vocab,Tagalog,Waray,baywang,hawak
+Tagalog-Waray,vocab,Tagalog,Waray,bibig,baba
+Tagalog-Waray,vocab,Tagalog,Waray,bigas,bugas
+Tagalog-Waray,vocab,Tagalog,Waray,bigat,bug-at
+Tagalog-Waray,vocab,Tagalog,Waray,bigay,hatag
+Tagalog-Waray,vocab,Tagalog,Waray,bihasa,hiara
+Tagalog-Waray,vocab,Tagalog,Waray,biik,pasi
+Tagalog-Waray,vocab,Tagalog,Waray,bilang,komo
+Tagalog-Waray,vocab,Tagalog,Waray,bilang,ihap
+Tagalog-Waray,vocab,Tagalog,Waray,bilangin,ihapon
+Tagalog-Waray,vocab,Tagalog,Waray,bilin,tugon
+Tagalog-Waray,vocab,Tagalog,Waray,bilog,lidong
+Tagalog-Waray,vocab,Tagalog,Waray,biloy,pangandiis
+Tagalog-Waray,vocab,Tagalog,Waray,bimpo,labakara
+Tagalog-Waray,vocab,Tagalog,Waray,binat,bughat
+Tagalog-Waray,vocab,Tagalog,Waray,binata,ulitawo
+Tagalog-Waray,vocab,Tagalog,Waray,bintana,bintana
+Tagalog-Waray,vocab,Tagalog,Waray,binugbog,ginkastigo
+Tagalog-Waray,vocab,Tagalog,Waray,binyag,bunyag
+Tagalog-Waray,vocab,Tagalog,Waray,bingi,bungol
+Tagalog-Waray,vocab,Tagalog,Waray,bingot,bungi
+Tagalog-Waray,vocab,Tagalog,Waray,biro,intrimis
+Tagalog-Waray,vocab,Tagalog,Waray,bitak,butak
+Tagalog-Waray,vocab,Tagalog,Waray,bituin,bituon
+Tagalog-Waray,vocab,Tagalog,Waray,biyenan,ugangan
+Tagalog-Waray,vocab,Tagalog,Waray,bobo,bulok
+Tagalog-Waray,vocab,Tagalog,Waray,boses,tingog
+Tagalog-Waray,vocab,Tagalog,Waray,bote,botelya
+Tagalog-Waray,vocab,Tagalog,Waray,braso,butkon
+Tagalog-Waray,vocab,Tagalog,Waray,bubong,atup
+Tagalog-Waray,vocab,Tagalog,Waray,bugbog-sarado,kastigado
+Tagalog-Waray,vocab,Tagalog,Waray,buhangin,baras
+Tagalog-Waray,vocab,Tagalog,Waray,buhay,buhi
+Tagalog-Waray,vocab,Tagalog,Waray,buhay,kinabuhi
+Tagalog-Waray,vocab,Tagalog,Waray,buhok,buhok
+Tagalog-Waray,vocab,Tagalog,Waray,bukas,abre
+Tagalog-Waray,vocab,Tagalog,Waray,bukid,uma
+Tagalog-Waray,vocab,Tagalog,Waray,buko,silot
+Tagalog-Waray,vocab,Tagalog,Waray,bulag,buta
+Tagalog-Waray,vocab,Tagalog,Waray,bulaklak,bukad
+Tagalog-Waray,vocab,Tagalog,Waray,bulati,wati
+Tagalog-Waray,vocab,Tagalog,Waray,bulati,uging
+Tagalog-Waray,vocab,Tagalog,Waray,bulok,dunot
+Tagalog-Waray,vocab,Tagalog,Waray,bulong,huring
+Tagalog-Waray,vocab,Tagalog,Waray,bundok,bukid
+Tagalog-Waray,vocab,Tagalog,Waray,bunso,pudo
+Tagalog-Waray,vocab,Tagalog,Waray,bunga,bunga
+Tagalog-Waray,vocab,Tagalog,Waray,buntot,ikog
+Tagalog-Waray,vocab,Tagalog,Waray,buo,bug-os
+Tagalog-Waray,vocab,Tagalog,Waray,butas,buho
+Tagalog-Waray,vocab,Tagalog,Waray,butiki,pinit
+Tagalog-Waray,vocab,Tagalog,Waray,butil,tipasi
+Tagalog-Waray,vocab,Tagalog,Waray,buto,tul-an
+Tagalog-Waray,vocab,Tagalog,Waray,buto,liso
+Tagalog-Waray,vocab,Tagalog,Waray,buwan,bulan
+Tagalog-Waray,vocab,Tagalog,Waray,buwaya,buaya
+Tagalog-Waray,vocab,Tagalog,Waray,char,char
+Tagalog-Waray,vocab,Tagalog,Waray,charing,charing
+Tagalog-Waray,vocab,Tagalog,Waray,charot,charot
+Tagalog-Waray,vocab,Tagalog,Waray,chaka,chaka
+Tagalog-Waray,vocab,Tagalog,Waray,chika,chika
+Tagalog-Waray,vocab,Tagalog,Waray,chikadora,chikadora
+Tagalog-Waray,vocab,Tagalog,Waray,daan,agianan
+Tagalog-Waray,vocab,Tagalog,Waray,daga,yatot
+Tagalog-Waray,vocab,Tagalog,Waray,dahil,kay
+Tagalog-Waray,vocab,Tagalog,Waray,daigdig,kalibutan
+Tagalog-Waray,vocab,Tagalog,Waray,dalaga,daraga
+Tagalog-Waray,vocab,Tagalog,Waray,dalampasigan,baybayon
+Tagalog-Waray,vocab,Tagalog,Waray,dalawa,duha
+Tagalog-Waray,vocab,Tagalog,Waray,daliri,tudlo
+Tagalog-Waray,vocab,Tagalog,Waray,damit,bado
+Tagalog-Waray,vocab,Tagalog,Waray,dapo,hapon
+Tagalog-Waray,vocab,Tagalog,Waray,demonyo,manunulay
+Tagalog-Waray,vocab,Tagalog,Waray,dibdib,dughan
+Tagalog-Waray,vocab,Tagalog,Waray,dighay,dug-ab
+Tagalog-Waray,vocab,Tagalog,Waray,diko,ingko
+Tagalog-Waray,vocab,Tagalog,Waray,dila,dila
+Tagalog-Waray,vocab,Tagalog,Waray,dilaw,dulaw
+Tagalog-Waray,vocab,Tagalog,Waray,dito,dinhi
+Tagalog-Waray,vocab,Tagalog,Waray,ditse,inse
+Tagalog-Waray,vocab,Tagalog,Waray,dingding,bungbong
+Tagalog-Waray,vocab,Tagalog,Waray,diyan,dida
+Tagalog-Waray,vocab,Tagalog,Waray,diyos,diyos
+Tagalog-Waray,vocab,Tagalog,Waray,doon,didto
+Tagalog-Waray,vocab,Tagalog,Waray,duktor,duktor
+Tagalog-Waray,vocab,Tagalog,Waray,dura,tupra
+Tagalog-Waray,vocab,Tagalog,Waray,duwag,matalaw
+Tagalog-Waray,vocab,Tagalog,Waray,eroplano,edru
+Tagalog-Waray,vocab,Tagalog,Waray,ewan,ambot
+Tagalog-Waray,vocab,Tagalog,Waray,gabi,gaway
+Tagalog-Waray,vocab,Tagalog,Waray,galaw,gios
+Tagalog-Waray,vocab,Tagalog,Waray,galing,tikang
+Tagalog-Waray,vocab,Tagalog,Waray,galit,kasina
+Tagalog-Waray,vocab,Tagalog,Waray,galos,samad
+Tagalog-Waray,vocab,Tagalog,Waray,gamot,tambal
+Tagalog-Waray,vocab,Tagalog,Waray,ganda,husay
+Tagalog-Waray,vocab,Tagalog,Waray,ganti,bulos
+Tagalog-Waray,vocab,Tagalog,Waray,gata ng niyog,hatok
+Tagalog-Waray,vocab,Tagalog,Waray,gawa,himo
+Tagalog-Waray,vocab,Tagalog,Waray,gilagid,lagos
+Tagalog-Waray,vocab,Tagalog,Waray,ginto,bulawan
+Tagalog-Waray,vocab,Tagalog,Waray,gitna,butnga
+Tagalog-Waray,vocab,Tagalog,Waray,gubat,kagurangan
+Tagalog-Waray,vocab,Tagalog,Waray,gulay,utanon
+Tagalog-Waray,vocab,Tagalog,Waray,gulong,lidong
+Tagalog-Waray,vocab,Tagalog,Waray,gumulong,naglido
+Tagalog-Waray,vocab,Tagalog,Waray,gupit,arot
+Tagalog-Waray,vocab,Tagalog,Waray,guro,magturutdo
+Tagalog-Waray,vocab,Tagalog,Waray,gusali,bilding
+Tagalog-Waray,vocab,Tagalog,Waray,gusot,kurumos
+Tagalog-Waray,vocab,Tagalog,Waray,gusto,karuyag
+Tagalog-Waray,vocab,Tagalog,Waray,hakbang,piktaw
+Tagalog-Waray,vocab,Tagalog,Waray,halaman,tanaman
+Tagalog-Waray,vocab,Tagalog,Waray,haligi,harigi
+Tagalog-Waray,vocab,Tagalog,Waray,halik,harok
+Tagalog-Waray,vocab,Tagalog,Waray,halimbawa,pananglitan
+Tagalog-Waray,vocab,Tagalog,Waray,haluin,ukayon
+Tagalog-Waray,vocab,Tagalog,Waray,hamog,tun-og
+Tagalog-Waray,vocab,Tagalog,Waray,handa,andam
+Tagalog-Waray,vocab,Tagalog,Waray,hapag-kainan,karaunan
+Tagalog-Waray,vocab,Tagalog,Waray,hapunan,panihapon
+Tagalog-Waray,vocab,Tagalog,Waray,hari,hadi
+Tagalog-Waray,vocab,Tagalog,Waray,hati,tunga
+Tagalog-Waray,vocab,Tagalog,Waray,hatinggabi,katutnga
+Tagalog-Waray,vocab,Tagalog,Waray,hawak,kapot
+Tagalog-Waray,vocab,Tagalog,Waray,higa,higda
+Tagalog-Waray,vocab,Tagalog,Waray,higaan,higdaan
+Tagalog-Waray,vocab,Tagalog,Waray,hikab,huyam
+Tagalog-Waray,vocab,Tagalog,Waray,hikaw,ariyos
+Tagalog-Waray,vocab,Tagalog,Waray,hila,butong
+Tagalog-Waray,vocab,Tagalog,Waray,hilamos,hiram-os
+Tagalog-Waray,vocab,Tagalog,Waray,hilo,lipong
+Tagalog-Waray,vocab,Tagalog,Waray,hindi,diri
+Tagalog-Waray,vocab,Tagalog,Waray,hininga,ginhawa
+Tagalog-Waray,vocab,Tagalog,Waray,hinirang,pinili
+Tagalog-Waray,vocab,Tagalog,Waray,hinlalaki,tumaragko
+Tagalog-Waray,vocab,Tagalog,Waray,hinliliit,kumayingking
+Tagalog-Waray,vocab,Tagalog,Waray,hintuturo,tumurutdo
+Tagalog-Waray,vocab,Tagalog,Waray,hintay,hulat
+Tagalog-Waray,vocab,Tagalog,Waray,hita,paa
+Tagalog-Waray,vocab,Tagalog,Waray,hiwalay,bulag
+Tagalog-Waray,vocab,Tagalog,Waray,hubad,hubo
+Tagalog-Waray,vocab,Tagalog,Waray,huli,urihi
+Tagalog-Waray,vocab,Tagalog,Waray,huwag,ayaw
+Tagalog-Waray,vocab,Tagalog,Waray,iba,iba
+Tagalog-Waray,vocab,Tagalog,Waray,ibaba,ubos
+Tagalog-Waray,vocab,Tagalog,Waray,ibabaw,igbaw
+Tagalog-Waray,vocab,Tagalog,Waray,iba-iba,magkadirudilain
+Tagalog-Waray,vocab,Tagalog,Waray,ibon,tamsi
+Tagalog-Waray,vocab,Tagalog,Waray,ihaw,sugba
+Tagalog-Waray,vocab,Tagalog,Waray,ikaw,ikaw
+Tagalog-Waray,vocab,Tagalog,Waray,ikot,libot
+Tagalog-Waray,vocab,Tagalog,Waray,ilalim,ilarom
+Tagalog-Waray,vocab,Tagalog,Waray,ilaw,suga
+Tagalog-Waray,vocab,Tagalog,Waray,ilog,salog
+Tagalog-Waray,vocab,Tagalog,Waray,ilong,irong
+Tagalog-Waray,vocab,Tagalog,Waray,ina,iroy
+Tagalog-Waray,vocab,Tagalog,Waray,inaanak,kinugos
+Tagalog-Waray,vocab,Tagalog,Waray,inaantok,pinipiraw
+Tagalog-Waray,vocab,Tagalog,Waray,inahin,umagak
+Tagalog-Waray,vocab,Tagalog,Waray,inahing baboy,pakal
+Tagalog-Waray,vocab,Tagalog,Waray,inakusahan,ginbutangbutangan
+Tagalog-Waray,vocab,Tagalog,Waray,inihaw,sinugba
+Tagalog-Waray,vocab,Tagalog,Waray,inom,inom
+Tagalog-Waray,vocab,Tagalog,Waray,inom ng gamot,tumar
+Tagalog-Waray,vocab,Tagalog,Waray,inyo,iyo
+Tagalog-Waray,vocab,Tagalog,Waray,inggit,indig
+Tagalog-Waray,vocab,Tagalog,Waray,ipa,upa
+Tagalog-Waray,vocab,Tagalog,Waray,ipaalam,ipasabot
+Tagalog-Waray,vocab,Tagalog,Waray,ipakisuyo,ipaalayon
+Tagalog-Waray,vocab,Tagalog,Waray,ipis,bangka
+Tagalog-Waray,vocab,Tagalog,Waray,isa,usa
+Tagalog-Waray,vocab,Tagalog,Waray,isahog,isakot
+Tagalog-Waray,vocab,Tagalog,Waray,isip,hunahuna
+Tagalog-Waray,vocab,Tagalog,Waray,itak,sundang
+Tagalog-Waray,vocab,Tagalog,Waray,itik,pato
+Tagalog-Waray,vocab,Tagalog,Waray,itim,itom
+Tagalog-Waray,vocab,Tagalog,Waray,itinulak,ginduso
+Tagalog-Waray,vocab,Tagalog,Waray,itlog,bunay
+Tagalog-Waray,vocab,Tagalog,Waray,iwas,likay
+Tagalog-Waray,vocab,Tagalog,Waray,iyak,tuok
+Tagalog-Waray,vocab,Tagalog,Waray,iyo,imo
+Tagalog-Waray,vocab,Tagalog,Waray,kaba,kulba
+Tagalog-Waray,vocab,Tagalog,Waray,kababaihan,kababayin-an
+Tagalog-Waray,vocab,Tagalog,Waray,kabit,kabit
+Tagalog-Waray,vocab,Tagalog,Waray,kaibigan,sangkay
+Tagalog-Waray,vocab,Tagalog,Waray,kailangan,kinahanglan
+Tagalog-Waray,vocab,Tagalog,Waray,kalabasa,karubasa
+Tagalog-Waray,vocab,Tagalog,Waray,kalabaw,karabaw
+Tagalog-Waray,vocab,Tagalog,Waray,kalahati,katunga
+Tagalog-Waray,vocab,Tagalog,Waray,kalalakihan,kalalakin-an
+Tagalog-Waray,vocab,Tagalog,Waray,kalapati,sarapati
+Tagalog-Waray,vocab,Tagalog,Waray,kalawang,baga
+Tagalog-Waray,vocab,Tagalog,Waray,kalingkingan,kumayingking
+Tagalog-Waray,vocab,Tagalog,Waray,kaliskis,hingbis
+Tagalog-Waray,vocab,Tagalog,Waray,kama,kama
+Tagalog-Waray,vocab,Tagalog,Waray,kamag-anak,kaurupdan
+Tagalog-Waray,vocab,Tagalog,Waray,kamay,kamot
+Tagalog-Waray,vocab,Tagalog,Waray,kambal,karuha
+Tagalog-Waray,vocab,Tagalog,Waray,kambing,kanding
+Tagalog-Waray,vocab,Tagalog,Waray,kami,kami
+Tagalog-Waray,vocab,Tagalog,Waray,kamoteng-kahoy,bilanghoy
+Tagalog-Waray,vocab,Tagalog,Waray,kampana,lingganay
+Tagalog-Waray,vocab,Tagalog,Waray,kampi,ugop
+Tagalog-Waray,vocab,Tagalog,Waray,kanila,ira
+Tagalog-Waray,vocab,Tagalog,Waray,kanin,kan-on
+Tagalog-Waray,vocab,Tagalog,Waray,kantot,iyot
+Tagalog-Waray,vocab,Tagalog,Waray,kapal,dakmol
+Tagalog-Waray,vocab,Tagalog,Waray,kapatid,bugto
+Tagalog-Waray,vocab,Tagalog,Waray,kapit-bahay,amyaw
+Tagalog-Waray,vocab,Tagalog,Waray,kasal,kasal
+Tagalog-Waray,vocab,Tagalog,Waray,kasalanan,sala
+Tagalog-Waray,vocab,Tagalog,Waray,kasali,kaapi
+Tagalog-Waray,vocab,Tagalog,Waray,kasalo,kahampang
+Tagalog-Waray,vocab,Tagalog,Waray,kasama,kaupod
+Tagalog-Waray,vocab,Tagalog,Waray,kasambahay,kabulig
+Tagalog-Waray,vocab,Tagalog,Waray,kasinungalingan,buwa
+Tagalog-Waray,vocab,Tagalog,Waray,katapat,kaatubang
+Tagalog-Waray,vocab,Tagalog,Waray,katawan,lawas
+Tagalog-Waray,vocab,Tagalog,Waray,katawatawa,pataraw-an
+Tagalog-Waray,vocab,Tagalog,Waray,kati,katol
+Tagalog-Waray,vocab,Tagalog,Waray,katulong,kabulig
+Tagalog-Waray,vocab,Tagalog,Waray,kaugalian,pamatasan
+Tagalog-Waray,vocab,Tagalog,Waray,kawali,karaha
+Tagalog-Waray,vocab,Tagalog,Waray,kawawa,kairo
+Tagalog-Waray,vocab,Tagalog,Waray,kay,kan
+Tagalog-Waray,vocab,Tagalog,Waray,kayo,kamo
+Tagalog-Waray,vocab,Tagalog,Waray,kilala,kilala
+Tagalog-Waray,vocab,Tagalog,Waray,kilikili,irok
+Tagalog-Waray,vocab,Tagalog,Waray,kiliti,girok
+Tagalog-Waray,vocab,Tagalog,Waray,kindat,kiro
+Tagalog-Waray,vocab,Tagalog,Waray,kinakabahan,ginkukulba
+Tagalog-Waray,vocab,Tagalog,Waray,kinakapatid,igso
+Tagalog-Waray,vocab,Tagalog,Waray,kinang,inggat
+Tagalog-Waray,vocab,Tagalog,Waray,kintab,inggat
+Tagalog-Waray,vocab,Tagalog,Waray,kinumpronta,ginsukmat
+Tagalog-Waray,vocab,Tagalog,Waray,kirot,ngutngot
+Tagalog-Waray,vocab,Tagalog,Waray,kisame,alkuba
+Tagalog-Waray,vocab,Tagalog,Waray,kita,kita
+Tagalog-Waray,vocab,Tagalog,Waray,kuba,buktot
+Tagalog-Waray,vocab,Tagalog,Waray,kuko,kulo
+Tagalog-Waray,vocab,Tagalog,Waray,kulambo,moskitero
+Tagalog-Waray,vocab,Tagalog,Waray,kulang,kulang
+Tagalog-Waray,vocab,Tagalog,Waray,kulangot,dungot
+Tagalog-Waray,vocab,Tagalog,Waray,kulo,kaladkad
+Tagalog-Waray,vocab,Tagalog,Waray,kulubot,kuros
+Tagalog-Waray,vocab,Tagalog,Waray,kumot,taklap
+Tagalog-Waray,vocab,Tagalog,Waray,kumpara,tanding
+Tagalog-Waray,vocab,Tagalog,Waray,kumukulo,nakaladkad
+Tagalog-Waray,vocab,Tagalog,Waray,kurot,kubot
+Tagalog-Waray,vocab,Tagalog,Waray,kuto,kuto
+Tagalog-Waray,vocab,Tagalog,Waray,kuya,kuya
+Tagalog-Waray,vocab,Tagalog,Waray,laba,laba
+Tagalog-Waray,vocab,Tagalog,Waray,lababo,lababo
+Tagalog-Waray,vocab,Tagalog,Waray,labahan,bunakan
+Tagalog-Waray,vocab,Tagalog,Waray,labas,gawas
+Tagalog-Waray,vocab,Tagalog,Waray,labas-masok,sulod-gawas
+Tagalog-Waray,vocab,Tagalog,Waray,labi,im-im
+Tagalog-Waray,vocab,Tagalog,Waray,lagari,sarutso
+Tagalog-Waray,vocab,Tagalog,Waray,laglag,purak
+Tagalog-Waray,vocab,Tagalog,Waray,lagnat,hiranat
+Tagalog-Waray,vocab,Tagalog,Waray,lahat,ngatanan
+Tagalog-Waray,vocab,Tagalog,Waray,lakwatsa,lakwatsa
+Tagalog-Waray,vocab,Tagalog,Waray,lalaki,lalaki
+Tagalog-Waray,vocab,Tagalog,Waray,lamok,namok
+Tagalog-Waray,vocab,Tagalog,Waray,langgam,tubak
+Tagalog-Waray,vocab,Tagalog,Waray,laro,mulay
+Tagalog-Waray,vocab,Tagalog,Waray,laruan,mulayan
+Tagalog-Waray,vocab,Tagalog,Waray,laylayan,sagyad
+Tagalog-Waray,vocab,Tagalog,Waray,leeg,liog
+Tagalog-Waray,vocab,Tagalog,Waray,libag,buring
+Tagalog-Waray,vocab,Tagalog,Waray,libing,lubong
+Tagalog-Waray,vocab,Tagalog,Waray,ligo,karigo
+Tagalog-Waray,vocab,Tagalog,Waray,lihim,sikreto
+Tagalog-Waray,vocab,Tagalog,Waray,likod,likod
+Tagalog-Waray,vocab,Tagalog,Waray,likod ng bahay,luyo hit'balay
+Tagalog-Waray,vocab,Tagalog,Waray,lima,lima
+Tagalog-Waray,vocab,Tagalog,Waray,lindol,linog
+Tagalog-Waray,vocab,Tagalog,Waray,luha,luha
+Tagalog-Waray,vocab,Tagalog,Waray,lukso,lukso
+Tagalog-Waray,vocab,Tagalog,Waray,lunok,tulon
+Tagalog-Waray,vocab,Tagalog,Waray,lupa,tuna
+Tagalog-Waray,vocab,Tagalog,Waray,luya,luy-a
+Tagalog-Waray,vocab,Tagalog,Waray,maalat,maasin
+Tagalog-Waray,vocab,Tagalog,Waray,maalinsangan,magirhang
+Tagalog-Waray,vocab,Tagalog,Waray,maaliwalas,mahiwarang
+Tagalog-Waray,vocab,Tagalog,Waray,maalon,mabalud
+Tagalog-Waray,vocab,Tagalog,Waray,maanghang,maharang
+Tagalog-Waray,vocab,Tagalog,Waray,maarte,maartehon
+Tagalog-Waray,vocab,Tagalog,Waray,maasim,maaslom
+Tagalog-Waray,vocab,Tagalog,Waray,maawain,maluluy-on
+Tagalog-Waray,vocab,Tagalog,Waray,mababaw,hababaw
+Tagalog-Waray,vocab,Tagalog,Waray,mabagal,mahinay
+Tagalog-Waray,vocab,Tagalog,Waray,mabaho,mabaho
+Tagalog-Waray,vocab,Tagalog,Waray,mabait,buotan
+Tagalog-Waray,vocab,Tagalog,Waray,mabango,mahamot
+Tagalog-Waray,vocab,Tagalog,Waray,mabigat,mabug-at
+Tagalog-Waray,vocab,Tagalog,Waray,mabilis,malaksi
+Tagalog-Waray,vocab,Tagalog,Waray,madaling araw,maagahon
+Tagalog-Waray,vocab,Tagalog,Waray,madilim,masirom
+Tagalog-Waray,vocab,Tagalog,Waray,madulas,madalunot
+Tagalog-Waray,vocab,Tagalog,Waray,maga,hubag
+Tagalog-Waray,vocab,Tagalog,Waray,magaan,magaan
+Tagalog-Waray,vocab,Tagalog,Waray,magaling,makarit
+Tagalog-Waray,vocab,Tagalog,Waray,magbilang,mag-ihap
+Tagalog-Waray,vocab,Tagalog,Waray,magbihis,magliwan
+Tagalog-Waray,vocab,Tagalog,Waray,magkapatid,magbugto
+Tagalog-Waray,vocab,Tagalog,Waray,magluto,magluto
+Tagalog-Waray,vocab,Tagalog,Waray,magpaalam,magsarit
+Tagalog-Waray,vocab,Tagalog,Waray,magpaganda,magpahusay
+Tagalog-Waray,vocab,Tagalog,Waray,magpagupit,magpaarot
+Tagalog-Waray,vocab,Tagalog,Waray,magpapayat,magpagasa
+Tagalog-Waray,vocab,Tagalog,Waray,magparamdam,magpaabat
+Tagalog-Waray,vocab,Tagalog,Waray,magparaya,magpaumaya
+Tagalog-Waray,vocab,Tagalog,Waray,magsasaka,mag-uuma
+Tagalog-Waray,vocab,Tagalog,Waray,magsaing,magtuon
+Tagalog-Waray,vocab,Tagalog,Waray,magulo,masamok
+Tagalog-Waray,vocab,Tagalog,Waray,mahaba,halaba
+Tagalog-Waray,vocab,Tagalog,Waray,mahal,mahal
+Tagalog-Waray,vocab,Tagalog,Waray,mahal,hinigugma
+Tagalog-Waray,vocab,Tagalog,Waray,mahal,maluya
+Tagalog-Waray,vocab,Tagalog,Waray,mahirap,makuri
+Tagalog-Waray,vocab,Tagalog,Waray,mahirap,pobre
+Tagalog-Waray,vocab,Tagalog,Waray,mahiya,maawod
+Tagalog-Waray,vocab,Tagalog,Waray,mahiyain,awdanon
+Tagalog-Waray,vocab,Tagalog,Waray,maikli,halipot
+Tagalog-Waray,vocab,Tagalog,Waray,maiksi,halipot
+Tagalog-Waray,vocab,Tagalog,Waray,mainit,mapaso
+Tagalog-Waray,vocab,Tagalog,Waray,mainit na tubig,laso
+Tagalog-Waray,vocab,Tagalog,Waray,maingay,maaringasa
+Tagalog-Waray,vocab,Tagalog,Waray,maitim,maitom
+Tagalog-Waray,vocab,Tagalog,Waray,makapal,malara
+Tagalog-Waray,vocab,Tagalog,Waray,makati,makatol
+Tagalog-Waray,vocab,Tagalog,Waray,makikisuyo,mahamis
+Tagalog-Waray,vocab,Tagalog,Waray,makirot,mangutngot
+Tagalog-Waray,vocab,Tagalog,Waray,makunat,mahunat
+Tagalog-Waray,vocab,Tagalog,Waray,malakas,makusog
+Tagalog-Waray,vocab,Tagalog,Waray,malaki,dako
+Tagalog-Waray,vocab,Tagalog,Waray,malalim,halarom
+Tagalog-Waray,vocab,Tagalog,Waray,malamig,mahagkot
+Tagalog-Waray,vocab,Tagalog,Waray,malandi,pikat
+Tagalog-Waray,vocab,Tagalog,Waray,malapad,hilapad
+Tagalog-Waray,vocab,Tagalog,Waray,malapit,harani
+Tagalog-Waray,vocab,Tagalog,Waray,malaswa,malaw-ay
+Tagalog-Waray,vocab,Tagalog,Waray,malayo,harayo
+Tagalog-Waray,vocab,Tagalog,Waray,malibog,uuragon
+Tagalog-Waray,vocab,Tagalog,Waray,maligamgam,malanhod
+Tagalog-Waray,vocab,Tagalog,Waray,maliit,gutiay
+Tagalog-Waray,vocab,Tagalog,Waray,malinamnam,marasa
+Tagalog-Waray,vocab,Tagalog,Waray,malinaw,malihaw
+Tagalog-Waray,vocab,Tagalog,Waray,malinaw,klaro
+Tagalog-Waray,vocab,Tagalog,Waray,malinis,malimpyo
+Tagalog-Waray,vocab,Tagalog,Waray,maliwanag,malamrag
+Tagalog-Waray,vocab,Tagalog,Waray,malunggay,kamalunggay
+Tagalog-Waray,vocab,Tagalog,Waray,malutong,makarubkarob
+Tagalog-Waray,vocab,Tagalog,Waray,manipis,manipis
+Tagalog-Waray,vocab,Tagalog,Waray,mantika,mantika
+Tagalog-Waray,vocab,Tagalog,Waray,manugang,umagad
+Tagalog-Waray,vocab,Tagalog,Waray,mangingisda,parapangisda
+Tagalog-Waray,vocab,Tagalog,Waray,mapagmataas,mapinahitas-on
+Tagalog-Waray,vocab,Tagalog,Waray,mapagpakumbaba,mapinaubsanon
+Tagalog-Waray,vocab,Tagalog,Waray,mapait,mapait
+Tagalog-Waray,vocab,Tagalog,Waray,mapanghi,mapar-ot
+Tagalog-Waray,vocab,Tagalog,Waray,maputi,mabusag
+Tagalog-Waray,vocab,Tagalog,Waray,marami,damo
+Tagalog-Waray,vocab,Tagalog,Waray,maramot,hakog
+Tagalog-Waray,vocab,Tagalog,Waray,mare,madi
+Tagalog-Waray,vocab,Tagalog,Waray,martilyo,martilyo
+Tagalog-Waray,vocab,Tagalog,Waray,marunong,listo
+Tagalog-Waray,vocab,Tagalog,Waray,marupok,maruya
+Tagalog-Waray,vocab,Tagalog,Waray,mas,mas
+Tagalog-Waray,vocab,Tagalog,Waray,masarap,marasa
+Tagalog-Waray,vocab,Tagalog,Waray,masakit,maul-ol
+Tagalog-Waray,vocab,Tagalog,Waray,masaya,malipayon
+Tagalog-Waray,vocab,Tagalog,Waray,masikip,huot
+Tagalog-Waray,vocab,Tagalog,Waray,masikip,piguot
+Tagalog-Waray,vocab,Tagalog,Waray,masipag,maduruto
+Tagalog-Waray,vocab,Tagalog,Waray,mata,mata
+Tagalog-Waray,vocab,Tagalog,Waray,matabang,matapsi
+Tagalog-Waray,vocab,Tagalog,Waray,matagal,maiha
+Tagalog-Waray,vocab,Tagalog,Waray,matalino,baltok
+Tagalog-Waray,vocab,Tagalog,Waray,matamis,matam-is
+Tagalog-Waray,vocab,Tagalog,Waray,matanda,lagas
+Tagalog-Waray,vocab,Tagalog,Waray,matandang dalaga,angot
+Tagalog-Waray,vocab,Tagalog,Waray,matandang binata,angot
+Tagalog-Waray,vocab,Tagalog,Waray,matapang,maisog
+Tagalog-Waray,vocab,Tagalog,Waray,matibay,madig-on
+Tagalog-Waray,vocab,Tagalog,Waray,mayabang,hambog
+Tagalog-Waray,vocab,Tagalog,Waray,mayaman,riko
+Tagalog-Waray,vocab,Tagalog,Waray,mayroon,may-ada
+Tagalog-Waray,vocab,Tagalog,Waray,medyo hambog,hambugon
+Tagalog-Waray,vocab,Tagalog,Waray,minamahal,hinigugma
+Tagalog-Waray,vocab,Tagalog,Waray,mukha,nawong
+Tagalog-Waray,vocab,Tagalog,Waray,mumog,limugmog
+Tagalog-Waray,vocab,Tagalog,Waray,mura,barato
+Tagalog-Waray,vocab,Tagalog,Waray,mura,buyayaw
+Tagalog-Waray,vocab,Tagalog,Waray,nababagot,nauuyam
+Tagalog-Waray,vocab,Tagalog,Waray,nabitiwan,nabuhian
+Tagalog-Waray,vocab,Tagalog,Waray,nadapa,nahipakulob
+Tagalog-Waray,vocab,Tagalog,Waray,nadulas,nahipalindas
+Tagalog-Waray,vocab,Tagalog,Waray,nag-aalab,naglalarab
+Tagalog-Waray,vocab,Tagalog,Waray,nagkakagusto,naruruyag
+Tagalog-Waray,vocab,Tagalog,Waray,nagkagusto,naruyag
+Tagalog-Waray,vocab,Tagalog,Waray,nagkasalubong,nagkatapo
+Tagalog-Waray,vocab,Tagalog,Waray,naglalagablab,naglalarab
+Tagalog-Waray,vocab,Tagalog,Waray,nagmamadali,nag-aapura
+Tagalog-Waray,vocab,Tagalog,Waray,nagpalaglag,nagpapunit
+Tagalog-Waray,vocab,Tagalog,Waray,nagtaka,napausa
+Tagalog-Waray,vocab,Tagalog,Waray,nagulat,kinalasan
+Tagalog-Waray,vocab,Tagalog,Waray,nahilo,nalipong
+Tagalog-Waray,vocab,Tagalog,Waray,nahihiya,naaawod
+Tagalog-Waray,vocab,Tagalog,Waray,nahiya,naawod
+Tagalog-Waray,vocab,Tagalog,Waray,na-inlab,nahigugma
+Tagalog-Waray,vocab,Tagalog,Waray,nakababatang kapatid,manghod
+Tagalog-Waray,vocab,Tagalog,Waray,nakakabagot,mauyam
+Tagalog-Waray,vocab,Tagalog,Waray,nakakainis,makaharangit
+Tagalog-Waray,vocab,Tagalog,Waray,nakalimot,nahingalimot
+Tagalog-Waray,vocab,Tagalog,Waray,nakasimangot,namusdot
+Tagalog-Waray,vocab,Tagalog,Waray,nakatatandang kapatid,magurang
+Tagalog-Waray,vocab,Tagalog,Waray,nananalaytay,naabid
+Tagalog-Waray,vocab,Tagalog,Waray,nanay,nanay
+Tagalog-Waray,vocab,Tagalog,Waray,nanliligaw,namamadayaw
+Tagalog-Waray,vocab,Tagalog,Waray,napilitan,napiritan
+Tagalog-Waray,vocab,Tagalog,Waray,napulot,napurot
+Tagalog-Waray,vocab,Tagalog,Waray,nararamdaman,binabati
+Tagalog-Waray,vocab,Tagalog,Waray,narito,aanhi
+Tagalog-Waray,vocab,Tagalog,Waray,nars,nars
+Tagalog-Waray,vocab,Tagalog,Waray,natulala,hinutuwong
+Tagalog-Waray,vocab,Tagalog,Waray,nilikha,binuhat
+Tagalog-Waray,vocab,Tagalog,Waray,ninyo,niyo
+Tagalog-Waray,vocab,Tagalog,Waray,ningning,inggat
+Tagalog-Waray,vocab,Tagalog,Waray,niyog,lubi
+Tagalog-Waray,vocab,Tagalog,Waray,noo,agtang
+Tagalog-Waray,vocab,Tagalog,Waray,nunal,arom
+Tagalog-Waray,vocab,Tagalog,Waray,ngala-ngala,ngala-ngala
+Tagalog-Waray,vocab,Tagalog,Waray,nganga,nganga
+Tagalog-Waray,vocab,Tagalog,Waray,ngipin,ngipon
+Tagalog-Waray,vocab,Tagalog,Waray,ngiti,hiyom
+Tagalog-Waray,vocab,Tagalog,Waray,ngiwi,hiwit
+Tagalog-Waray,vocab,Tagalog,Waray,nguso,nguyo-nguyo
+Tagalog-Waray,vocab,Tagalog,Waray,nguya,kisam
+Tagalog-Waray,vocab,Tagalog,Waray,orasan,relo
+Tagalog-Waray,vocab,Tagalog,Waray,paa,tiil
+Tagalog-Waray,vocab,Tagalog,Waray,paalala,pahinumdom
+Tagalog-Waray,vocab,Tagalog,Waray,paborito,paborito
+Tagalog-Waray,vocab,Tagalog,Waray,paborito,pinaura
+Tagalog-Waray,vocab,Tagalog,Waray,pagbutihan,upayon
+Tagalog-Waray,vocab,Tagalog,Waray,pag-ibig,gugma
+Tagalog-Waray,vocab,Tagalog,Waray,pagpapatawad,pagpasaylo
+Tagalog-Waray,vocab,Tagalog,Waray,pagtulak,pagduso
+Tagalog-Waray,vocab,Tagalog,Waray,pahinga,pahuway
+Tagalog-Waray,vocab,Tagalog,Waray,pakpak,pako
+Tagalog-Waray,vocab,Tagalog,Waray,pako,raysang
+Tagalog-Waray,vocab,Tagalog,Waray,palaaway,makiaawayon
+Tagalog-Waray,vocab,Tagalog,Waray,palabiro,maintrimis
+Tagalog-Waray,vocab,Tagalog,Waray,palaka,pakra
+Tagalog-Waray,vocab,Tagalog,Waray,palakaibigan,makisasangkayon
+Tagalog-Waray,vocab,Tagalog,Waray,palapag,andana
+Tagalog-Waray,vocab,Tagalog,Waray,palaso,pana
+Tagalog-Waray,vocab,Tagalog,Waray,palatandaan,tigaman
+Tagalog-Waray,vocab,Tagalog,Waray,palay,humay
+Tagalog-Waray,vocab,Tagalog,Waray,palikuran,kasilyas
+Tagalog-Waray,vocab,Tagalog,Waray,pamangkin,umangkon
+Tagalog-Waray,vocab,Tagalog,Waray,panaginip,inop
+Tagalog-Waray,vocab,Tagalog,Waray,panalangin,pag-ampo
+Tagalog-Waray,vocab,Tagalog,Waray,panata,panaad
+Tagalog-Waray,vocab,Tagalog,Waray,pantalon,sarwal
+Tagalog-Waray,vocab,Tagalog,Waray,pangako,saad
+Tagalog-Waray,vocab,Tagalog,Waray,panganay,suhag
+Tagalog-Waray,vocab,Tagalog,Waray,panginoon,ginoo
+Tagalog-Waray,vocab,Tagalog,Waray,pangit,maraksut
+Tagalog-Waray,vocab,Tagalog,Waray,panggatong,sungo
+Tagalog-Waray,vocab,Tagalog,Waray,papansin,parayawan
+Tagalog-Waray,vocab,Tagalog,Waray,papaya,kapayas
+Tagalog-Waray,vocab,Tagalog,Waray,para,basi
+Tagalog-Waray,vocab,Tagalog,Waray,para,para
+Tagalog-Waray,vocab,Tagalog,Waray,paratang,butangbutang
+Tagalog-Waray,vocab,Tagalog,Waray,pare,padi
+Tagalog-Waray,vocab,Tagalog,Waray,pares,padis
+Tagalog-Waray,vocab,Tagalog,Waray,pari,padi
+Tagalog-Waray,vocab,Tagalog,Waray,paruparo,alibangbang
+Tagalog-Waray,vocab,Tagalog,Waray,pasasa,pakarasa
+Tagalog-Waray,vocab,Tagalog,Waray,pasaway,pasarawayon
+Tagalog-Waray,vocab,Tagalog,Waray,pasok,sulod
+Tagalog-Waray,vocab,Tagalog,Waray,patawarin,pasayluon
+Tagalog-Waray,vocab,Tagalog,Waray,patong,tungbaw
+Tagalog-Waray,vocab,Tagalog,Waray,patuloy,padayon
+Tagalog-Waray,vocab,Tagalog,Waray,pawis,hulas
+Tagalog-Waray,vocab,Tagalog,Waray,payat,magasa
+Tagalog-Waray,vocab,Tagalog,Waray,payo,sagdon
+Tagalog-Waray,vocab,Tagalog,Waray,payong,payong
+Tagalog-Waray,vocab,Tagalog,Waray,peklat,ulat
+Tagalog-Waray,vocab,Tagalog,Waray,pera,kwarta
+Tagalog-Waray,vocab,Tagalog,Waray,pikit,piyong
+Tagalog-Waray,vocab,Tagalog,Waray,pilak,silber
+Tagalog-Waray,vocab,Tagalog,Waray,pilik-mata,pirok
+Tagalog-Waray,vocab,Tagalog,Waray,pilipit,birikis
+Tagalog-Waray,vocab,Tagalog,Waray,pilit,pirit
+Tagalog-Waray,vocab,Tagalog,Waray,pinaasa,ginpalaum
+Tagalog-Waray,vocab,Tagalog,Waray,pinagalitan,gin-isgan
+Tagalog-Waray,vocab,Tagalog,Waray,pinagpawisan,ginbalhasan
+Tagalog-Waray,vocab,Tagalog,Waray,pinggan,pinggan
+Tagalog-Waray,vocab,Tagalog,Waray,pinsan,patud
+Tagalog-Waray,vocab,Tagalog,Waray,pintasera,matamay
+Tagalog-Waray,vocab,Tagalog,Waray,pinto,purtahan
+Tagalog-Waray,vocab,Tagalog,Waray,pinuri,gindayeg
+Tagalog-Waray,vocab,Tagalog,Waray,pintura,pintar
+Tagalog-Waray,vocab,Tagalog,Waray,pipi,ngula
+Tagalog-Waray,vocab,Tagalog,Waray,pisngi,bayhon
+Tagalog-Waray,vocab,Tagalog,Waray,pitaka,pitaka
+Tagalog-Waray,vocab,Tagalog,Waray,pito,pito
+Tagalog-Waray,vocab,Tagalog,Waray,plano,larang
+Tagalog-Waray,vocab,Tagalog,Waray,pugita,kugita
+Tagalog-Waray,vocab,Tagalog,Waray,puki,puday
+Tagalog-Waray,vocab,Tagalog,Waray,pula,pula
+Tagalog-Waray,vocab,Tagalog,Waray,pulutan,sumsuman
+Tagalog-Waray,vocab,Tagalog,Waray,pumayat,gumasa
+Tagalog-Waray,vocab,Tagalog,Waray,punas,trapo
+Tagalog-Waray,vocab,Tagalog,Waray,pusa,misay
+Tagalog-Waray,vocab,Tagalog,Waray,pusit,nuos
+Tagalog-Waray,vocab,Tagalog,Waray,puso,kasingkasing
+Tagalog-Waray,vocab,Tagalog,Waray,pusod,pusod
+Tagalog-Waray,vocab,Tagalog,Waray,puson,pus-on
+Tagalog-Waray,vocab,Tagalog,Waray,putol ang kamay,pungkol
+Tagalog-Waray,vocab,Tagalog,Waray,punda,punda
+Tagalog-Waray,vocab,Tagalog,Waray,puti,busag
+Tagalog-Waray,vocab,Tagalog,Waray,putik,lagay
+Tagalog-Waray,vocab,Tagalog,Waray,puwet,bubot
+Tagalog-Waray,vocab,Tagalog,Waray,puyat,piraw
+Tagalog-Waray,vocab,Tagalog,Waray,pwera usog,pwera buyag
+Tagalog-Waray,vocab,Tagalog,Waray,relo,relo
+Tagalog-Waray,vocab,Tagalog,Waray,repolyo,repolyo
+Tagalog-Waray,vocab,Tagalog,Waray,resbak,bulos
+Tagalog-Waray,vocab,Tagalog,Waray,reserba,reserba
+Tagalog-Waray,vocab,Tagalog,Waray,reseta,reseta
+Tagalog-Waray,vocab,Tagalog,Waray,resibo,resibo
+Tagalog-Waray,vocab,Tagalog,Waray,resulta,resulta
+Tagalog-Waray,vocab,Tagalog,Waray,reyna,rayna
+Tagalog-Waray,vocab,Tagalog,Waray,sagana,bastante
+Tagalog-Waray,vocab,Tagalog,Waray,sagot,baton
+Tagalog-Waray,vocab,Tagalog,Waray,sahig,salug
+Tagalog-Waray,vocab,Tagalog,Waray,sahog,sakot
+Tagalog-Waray,vocab,Tagalog,Waray,sakal,kibol
+Tagalog-Waray,vocab,Tagalog,Waray,sakong,bul-ong
+Tagalog-Waray,vocab,Tagalog,Waray,salamin,salamin
+Tagalog-Waray,vocab,Tagalog,Waray,salisi,baluknis
+Tagalog-Waray,vocab,Tagalog,Waray,salita,pulong
+Tagalog-Waray,vocab,Tagalog,Waray,sampal,taplong
+Tagalog-Waray,vocab,Tagalog,Waray,sampay,palaypay
+Tagalog-Waray,vocab,Tagalog,Waray,sampu,napulo
+Tagalog-Waray,vocab,Tagalog,Waray,sana,unta
+Tagalog-Waray,vocab,Tagalog,Waray,sana all,kunta ngatanan
+Tagalog-Waray,vocab,Tagalog,Waray,sanay,hiara
+Tagalog-Waray,vocab,Tagalog,Waray,sandok,luwag
+Tagalog-Waray,vocab,Tagalog,Waray,sanga ng niyog,palwa
+Tagalog-Waray,vocab,Tagalog,Waray,sangkalan,tadtaran
+Tagalog-Waray,vocab,Tagalog,Waray,sapat,tama
+Tagalog-Waray,vocab,Tagalog,Waray,sapatos,sapatos
+Tagalog-Waray,vocab,Tagalog,Waray,sarili,lugaring
+Tagalog-Waray,vocab,Tagalog,Waray,sarili,kalugaringon
+Tagalog-Waray,vocab,Tagalog,Waray,sariwa,lab-as
+Tagalog-Waray,vocab,Tagalog,Waray,sariwa,presko
+Tagalog-Waray,vocab,Tagalog,Waray,sawsawan,sawsawan
+Tagalog-Waray,vocab,Tagalog,Waray,saya,saya
+Tagalog-Waray,vocab,Tagalog,Waray,saya,lipay
+Tagalog-Waray,vocab,Tagalog,Waray,si,hi
+Tagalog-Waray,vocab,Tagalog,Waray,sikmura,suroksurok
+Tagalog-Waray,vocab,Tagalog,Waray,sila,hira
+Tagalog-Waray,vocab,Tagalog,Waray,sili,harang
+Tagalog-Waray,vocab,Tagalog,Waray,silip,hiling
+Tagalog-Waray,vocab,Tagalog,Waray,simple,simple
+Tagalog-Waray,vocab,Tagalog,Waray,simba,singba
+Tagalog-Waray,vocab,Tagalog,Waray,sinasamba,ginsisingba
+Tagalog-Waray,vocab,Tagalog,Waray,sindi,dagkot
+Tagalog-Waray,vocab,Tagalog,Waray,sindihan,dagkutan
+Tagalog-Waray,vocab,Tagalog,Waray,sinigawan,ginguliatan
+Tagalog-Waray,vocab,Tagalog,Waray,sino,hino
+Tagalog-Waray,vocab,Tagalog,Waray,sinturon,paha
+Tagalog-Waray,vocab,Tagalog,Waray,sinulatan,ginsuratan
+Tagalog-Waray,vocab,Tagalog,Waray,sinumbatan,ginbuyboy
+Tagalog-Waray,vocab,Tagalog,Waray,sinungaling,buwaon
+Tagalog-Waray,vocab,Tagalog,Waray,sipa,sikad
+Tagalog-Waray,vocab,Tagalog,Waray,siping,ubay
+Tagalog-Waray,vocab,Tagalog,Waray,sira,guba
+Tagalog-Waray,vocab,Tagalog,Waray,sisiw,siwo
+Tagalog-Waray,vocab,Tagalog,Waray,siya,hiya
+Tagalog-Waray,vocab,Tagalog,Waray,siyam,siyam
+Tagalog-Waray,vocab,Tagalog,Waray,subukan,sarihan
+Tagalog-Waray,vocab,Tagalog,Waray,sugat,samad
+Tagalog-Waray,vocab,Tagalog,Waray,suha,suwa
+Tagalog-Waray,vocab,Tagalog,Waray,sulat,surat
+Tagalog-Waray,vocab,Tagalog,Waray,sumbat,buyboy
+Tagalog-Waray,vocab,Tagalog,Waray,sumbong,sumat
+Tagalog-Waray,vocab,Tagalog,Waray,sumbrero,kalo
+Tagalog-Waray,vocab,Tagalog,Waray,sumpungin,burugsuanon
+Tagalog-Waray,vocab,Tagalog,Waray,supling,anak
+Tagalog-Waray,vocab,Tagalog,Waray,supot,pisot
+Tagalog-Waray,vocab,Tagalog,Waray,suso,suso
+Tagalog-Waray,vocab,Tagalog,Waray,tagas,awas
+Tagalog-Waray,vocab,Tagalog,Waray,tahol,usig
+Tagalog-Waray,vocab,Tagalog,Waray,tahimik,mamingaw
+Tagalog-Waray,vocab,Tagalog,Waray,tainga,talinga
+Tagalog-Waray,vocab,Tagalog,Waray,takbo,dalagan
+Tagalog-Waray,vocab,Tagalog,Waray,talampakan,rapadapa
+Tagalog-Waray,vocab,Tagalog,Waray,tali,higot
+Tagalog-Waray,vocab,Tagalog,Waray,talo,pirdi
+Tagalog-Waray,vocab,Tagalog,Waray,talon,lukso
+Tagalog-Waray,vocab,Tagalog,Waray,talunan,pirdido
+Tagalog-Waray,vocab,Tagalog,Waray,tamad,hubya
+Tagalog-Waray,vocab,Tagalog,Waray,tamod,letse
+Tagalog-Waray,vocab,Tagalog,Waray,tandang,lalaki nga manok
+Tagalog-Waray,vocab,Tagalog,Waray,tanim,tanom
+Tagalog-Waray,vocab,Tagalog,Waray,tanong,pakiana
+Tagalog-Waray,vocab,Tagalog,Waray,tanggap,karawat
+Tagalog-Waray,vocab,Tagalog,Waray,tanggapin,karawaton
+Tagalog-Waray,vocab,Tagalog,Waray,tao,tawo
+Tagalog-Waray,vocab,Tagalog,Waray,taob,kulob
+Tagalog-Waray,vocab,Tagalog,Waray,taon,tuig
+Tagalog-Waray,vocab,Tagalog,Waray,tapat,tangkod
+Tagalog-Waray,vocab,Tagalog,Waray,tapat,yungod
+Tagalog-Waray,vocab,Tagalog,Waray,tasa,tasa
+Tagalog-Waray,vocab,Tagalog,Waray,tatlo,tulo
+Tagalog-Waray,vocab,Tagalog,Waray,tawid,tabok
+Tagalog-Waray,vocab,Tagalog,Waray,taya,taya
+Tagalog-Waray,vocab,Tagalog,Waray,tayo,tindog
+Tagalog-Waray,vocab,Tagalog,Waray,tayo,kita
+Tagalog-Waray,vocab,Tagalog,Waray,tibo,lakin-on
+Tagalog-Waray,vocab,Tagalog,Waray,tigang,mamara
+Tagalog-Waray,vocab,Tagalog,Waray,tigyawat,punggod
+Tagalog-Waray,vocab,Tagalog,Waray,tihaya,huyang
+Tagalog-Waray,vocab,Tagalog,Waray,tinanggap,ginkarawat
+Tagalog-Waray,vocab,Tagalog,Waray,tinatwa,iginsalikway
+Tagalog-Waray,vocab,Tagalog,Waray,tinga,kiki
+Tagalog-Waray,vocab,Tagalog,Waray,tinggil,tinggil
+Tagalog-Waray,vocab,Tagalog,Waray,tingin,tan-aw
+Tagalog-Waray,vocab,Tagalog,Waray,titi,buto
+Tagalog-Waray,vocab,Tagalog,Waray,tili,guliat
+Tagalog-Waray,vocab,Tagalog,Waray,tingkayad,ikid
+Tagalog-Waray,vocab,Tagalog,Waray,tiyahin,dada
+Tagalog-Waray,vocab,Tagalog,Waray,tiyuhin,bata
+Tagalog-Waray,vocab,Tagalog,Waray,tono,tono
+Tagalog-Waray,vocab,Tagalog,Waray,trabaho,trabaho
+Tagalog-Waray,vocab,Tagalog,Waray,tsimay,binata
+Tagalog-Waray,vocab,Tagalog,Waray,tsinelas,tsinelas
+Tagalog-Waray,vocab,Tagalog,Waray,tubig,tubig
+Tagalog-Waray,vocab,Tagalog,Waray,tugon,sagot
+Tagalog-Waray,vocab,Tagalog,Waray,tugtog,tukar
+Tagalog-Waray,vocab,Tagalog,Waray,tulog,katurog
+Tagalog-Waray,vocab,Tagalog,Waray,tulong,bulig
+Tagalog-Waray,vocab,Tagalog,Waray,tuloy,dayon
+Tagalog-Waray,vocab,Tagalog,Waray,tumutol,diniri
+Tagalog-Waray,vocab,Tagalog,Waray,tumutulo,naturo
+Tagalog-Waray,vocab,Tagalog,Waray,tuta,ido
+Tagalog-Waray,vocab,Tagalog,Waray,tutuli,kulali
+Tagalog-Waray,vocab,Tagalog,Waray,tuwalya,tualya
+Tagalog-Waray,vocab,Tagalog,Waray,tuyo,mamara
+Tagalog-Waray,vocab,Tagalog,Waray,tuyo,bulad
+Tagalog-Waray,vocab,Tagalog,Waray,ugali,batasan
+Tagalog-Waray,vocab,Tagalog,Waray,ugat,gamot
+Tagalog-Waray,vocab,Tagalog,Waray,ulam,sud-an
+Tagalog-Waray,vocab,Tagalog,Waray,ulan,uran
+Tagalog-Waray,vocab,Tagalog,Waray,ulap,arum
+Tagalog-Waray,vocab,Tagalog,Waray,ulila,ilo
+Tagalog-Waray,vocab,Tagalog,Waray,ulit,utro
+Tagalog-Waray,vocab,Tagalog,Waray,umiiyak,nagtutuok
+Tagalog-Waray,vocab,Tagalog,Waray,umpisa,tinikangan
+Tagalog-Waray,vocab,Tagalog,Waray,unan,ulunan
+Tagalog-Waray,vocab,Tagalog,Waray,unggoy,ulot
+Tagalog-Waray,vocab,Tagalog,Waray,uod,ulod
+Tagalog-Waray,vocab,Tagalog,Waray,upa,plite
+Tagalog-Waray,vocab,Tagalog,Waray,upo,lingkod
+Tagalog-Waray,vocab,Tagalog,Waray,upuan,lingkuranan
+Tagalog-Waray,vocab,Tagalog,Waray,utang,utang
+Tagalog-Waray,vocab,Tagalog,Waray,utong,yupyupan
+Tagalog-Waray,vocab,Tagalog,Waray,utot,utot
+Tagalog-Waray,vocab,Tagalog,Waray,wala,wara
+Tagalog-Waray,vocab,Tagalog,Waray,wala sa tono,nagusaw
+Tagalog-Waray,vocab,Tagalog,Waray,walis,siphid
+Tagalog-Waray,vocab,Tagalog,Waray,walo,walo
+Tagalog-Waray,vocab,Tagalog,Waray,watak-watak,burublag
+Tagalog-Waray,vocab,Tagalog,Waray,yabag,piktaw
+Tagalog-Waray,vocab,Tagalog,Waray,yakag,agda
+Tagalog-Waray,vocab,Tagalog,Waray,yakap,hangkop
+Tagalog-Waray,vocab,Tagalog,Waray,yapos,hangkop
+Tagalog-Waray,vocab,Tagalog,Waray,yuko,hutok
+Tagalog-Waray,vocab,Tagalog,Waray,yumuko,hinutok
