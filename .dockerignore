@@ -1,0 +1,60 @@
+# MOSTLY COPIED FROM BACH OR BOT!!! Tinatamad na ako plsss
+
+# Version Control
+.git
+.gitignore
+.github/
+
+# Documentation
+README.md
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.so
+.venv*
+venv/
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+tests/
+
+# Development Tools
+notebooks/
+*.log
+logs/
+
+# Project Specific
+data/
+results/
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Others
+htmlcov/
+dist/
+build/
+*.egg-info/
