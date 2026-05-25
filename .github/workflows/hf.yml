@@ -32,4 +32,4 @@ jobs:
           cd hf-space
           git add .
           git commit -m "Sync from GitHub: ${{ github.sha }}" || echo "No changes to commit"
-          git push
+          git push https://krislette:$HF_TOKEN@huggingface.co/spaces/krislette/salinlahi main
