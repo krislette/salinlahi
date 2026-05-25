@@ -1,0 +1,53 @@
+{
+  "datasets": {
+    "translation_pairs": {
+      "file": "translation_pairs.csv",
+      "total_rows": 1656,
+      "columns": [
+        "language_pair",
+        "split",
+        "source_lang",
+        "target_lang",
+        "source_text",
+        "target_text"
+      ],
+      "by_language_pair": {
+        "Tagalog-Hiligaynon": {
+          "train": 172,
+          "test": 20
+        },
+        "Tagalog-Kapampangan": {
+          "train": 172,
+          "test": 20
+        },
+        "Tagalog-Waray": {
+          "vocab": 764,
+          "train": 497,
+          "test": 11
+        }
+      },
+      "note": "vocab split = word-level pairs from JSONL, no train/test assignment"
+    },
+    "alpaca_waray": {
+      "file": "alpaca_waray_clean.csv",
+      "total_rows": 51760,
+      "columns": [
+        "language",
+        "instruction",
+        "input",
+        "output",
+        "has_input"
+      ],
+      "language": "Waray",
+      "with_input_context": 19157,
+      "without_input_context": 32603,
+      "format": "instruction-tuning (Alpaca-style)"
+    }
+  },
+  "data_issues_resolved": [
+    "Tagalog-Waray had 2 duplicate parquet files (train+test) — merged and deduplicated",
+    "JSONL tagalog_to_waray.jsonl had 1 malformed record with only 1 element in 'set' — skipped",
+    "Tagalog-Hiligaynon uses 'Filipino' as source column name (normalized in schema)",
+    "Kapampangan uses 'Filipino' as source column name (normalized in schema)"
+  ]
+}
