@@ -4,7 +4,7 @@ from torch.optim.lr_scheduler import LambdaLR
 from torch.optim import Optimizer
 
 from src.utils.helpers import TRANSFORMER_MODEL
-from models.transformer.tokenizer import PAD_IDX
+from src.models.transformer.tokenizer import PAD_IDX
 
 class EarlyStopping:
     """
