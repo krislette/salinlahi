@@ -8,9 +8,9 @@ from torch.utils.data import DataLoader
 
 # Imports mainly for the transformer model
 from src.utils.helpers import TRAIN_DATA_PATH, TOKENIZER_MODEL, TRANSFORMER_MODEL
-from models.transformer.seq2seq import BaselineSeq2SeqTransformer
-from models.transformer.tokenizer import TranslationDataset, collate_fn, PAD_IDX
-from models.transformer.helpers import (
+from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
+from src.models.transformer.tokenizer import TranslationDataset, collate_fn, PAD_IDX
+from src.models.transformer.helpers import (
     EarlyStopping, 
     get_transformer_scheduler, 
     create_mask

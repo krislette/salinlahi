@@ -5,9 +5,9 @@ import argparse
 
 # Imports mainly for the transformer model
 from src.utils.helpers import TRANSFORMER_MODEL, TOKENIZER_MODEL, CSV_DATA
-from models.transformer.seq2seq import BaselineSeq2SeqTransformer
-from models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
-from models.transformer.helpers import generate_square_subsequent_mask
+from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
+from src.models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
+from src.models.transformer.helpers import generate_square_subsequent_mask
 
 def beam_search_decode(model: torch.nn.Module, src_tensor: torch.Tensor, device: torch.device, beam_size: int = 3, max_len: int = 100, alpha: float = 0.7):
     """
