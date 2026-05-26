@@ -4,7 +4,7 @@ import pandas as pd
 import argparse
 
 # Imports mainly for the transformer model
-from src.utils.helpers import TRANSFORMER_MODEL, TOKENIZER_MODEL, TEST_DATA_PATH
+from src.utils.helpers import TRANSFORMER_MODEL, TOKENIZER_MODEL, CSV_DATA
 from models.transformer.seq2seq import BaselineSeq2SeqTransformer
 from models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
 from models.transformer.helpers import generate_square_subsequent_mask
@@ -114,14 +114,14 @@ def run_transformer_batch_inference(num_samples: int = 5):
 
     # Load Test Dataset
     try:
-        df = pd.read_csv(TEST_DATA_PATH)
+        df = pd.read_csv(CSV_DATA)
         # Assuming the CSV has a 'split' column, filter for test if it exists
         if 'split' in df.columns:
             df = df[df['split'] == 'test']
             
         sample_df = df.sample(n=min(num_samples, len(df))).reset_index(drop=True)
     except Exception as e:
-        print(f"Error loading test data at {TEST_DATA_PATH}: {e}")
+        print(f"Error loading test data at {CSV_DATA}: {e}")
         return
 
     print("\n" + "="*60)
