@@ -148,9 +148,9 @@ def run_transformer_batch_inference(num_samples: int = 5):
         translation = sp.decode(clean_ids)
 
         print(f"\nSample {idx + 1}")
-        print(f"Source (Waray) : {source_sentence}")
-        print(f"Target (Human) : {reference_sentence}")
-        print(f"Prediction     : {translation}")
+        print(f"Source     : {source_sentence}")
+        print(f"Reference  : {reference_sentence}")
+        print(f"Prediction : {translation}")
         print("-" * 60)
 
 
