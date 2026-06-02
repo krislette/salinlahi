@@ -158,4 +158,4 @@ def train_transformer(batch_size: int = 512, epochs: int = 100):
 if __name__ == "__main__":
     # Choose whichever training you need to do
     # train_recurrent(x, y)
-    train_transformer(batch_size=512, epochs=100)
+    train_transformer(batch_size=256, epochs=100)
