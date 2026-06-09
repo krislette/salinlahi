@@ -1,25 +1,24 @@
 import argparse
 import torch
 import sentencepiece as spm
+import logging
 
 from src.utils.helpers import TRANSFORMER_MODEL, TOKENIZER_MODEL
 from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
 from src.models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
-# Hyperparameters for inference
-BEAM_SIZE = 5
-MAX_DECODING_LEN = 40
-ALPHA = 0.7
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def beam_search_decode(
     model: torch.nn.Module,
     src_tensor: torch.Tensor,
     device: torch.device,
-    beam_size: int = BEAM_SIZE,
-    max_len: int = MAX_DECODING_LEN,
-    alpha: float = ALPHA,
+    beam_size: int = 5,
+    max_len: int = 40,
+    alpha: float = 0.7,
 ):
     """Executes Beam Search decoding to find the most probable translation sequence."""
     model.eval()
@@ -87,69 +86,81 @@ def beam_search_decode(
 class TransformerTranslator:
     """
     A unified wrapper class for the Transformer model. 
-    Designed specifically to be instantiated once at the start of an API server.
+    Instantiate this twice in your API server (once for WAR-TGL, once for TGL-WAR).
     """
-    def __init__(self):
+    def __init__(self, model_path: str, tokenizer_path: str):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        print(f"Initializing Translator API on: {self.device}")
+        logger.info(f"Initializing Translator API on: {self.device} using {model_path}")
 
-        # Load Tokenizer directly from the model file
-        self.sp = spm.SentencePieceProcessor()
-        self.sp.load(str(TOKENIZER_MODEL))
-        vocab_size = self.sp.get_piece_size()
+        try:
+            # Load Tokenizer
+            self.sp = spm.SentencePieceProcessor()
+            self.sp.load(str(tokenizer_path))
+            vocab_size = self.sp.get_piece_size()
 
-        # Initialize Architecture
-        self.model = BaselineSeq2SeqTransformer(
-            num_encoder_layers=6,
-            num_decoder_layers=6,
-            emb_size=512,
-            nhead=8,
-            src_vocab_size=vocab_size,
-            tgt_vocab_size=vocab_size,
-            dim_feedforward=2048,
-            dropout=0.3,
-        ).to(self.device)
+            # Initialize Architecture
+            self.model = BaselineSeq2SeqTransformer(
+                num_encoder_layers=6,
+                num_decoder_layers=6,
+                emb_size=512,
+                nhead=8,
+                src_vocab_size=vocab_size,
+                tgt_vocab_size=vocab_size,
+                dim_feedforward=2048,
+                dropout=0.3,
+            ).to(self.device)
 
-        # Load Weights
-        self.model.load_state_dict(torch.load(TRANSFORMER_MODEL, map_location=self.device, weights_only=True))
-        self.model.eval()
-        print("Model weights loaded and ready for inference.")
+            # Load Weights
+            self.model.load_state_dict(torch.load(model_path, map_location=self.device, weights_only=True))
+            self.model.eval()
+            logger.info("Model weights loaded and ready for inference.")
+            
+        except Exception as e:
+            logger.error(f"Failed to load model or tokenizer: {str(e)}")
+            raise e
 
-    def predict(self, sentence: str) -> str:
+    def predict(self, sentence: str, beam_size: int = 3) -> str:
         """Takes a single raw string and returns the translated string."""
-        if not sentence.strip():
+        if not sentence or not isinstance(sentence, str) or not sentence.strip():
             return ""
 
-        # Encode
-        src_tokens = [SOS_IDX] + self.sp.encode(str(sentence), out_type=int) + [EOS_IDX]
-        src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
+        try:
+            # Limits the amount of input to max of 100
+            raw_tokens = self.sp.encode(str(sentence.strip()), out_type=int)[:100]
+            src_tokens = [SOS_IDX] + raw_tokens + [EOS_IDX]
+            src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
 
-        # Decode using Beam Search
-        predicted_ids = beam_search_decode(self.model, src_tensor, self.device, beam_size=BEAM_SIZE)
-        
-        # Clean up special tokens and detokenize back to text
-        clean_ids = [idx for idx in predicted_ids if idx not in [SOS_IDX, EOS_IDX, PAD_IDX]]
-        translation = self.sp.decode(clean_ids)
-        
-        return translation
-
+            # Decode
+            predicted_ids = beam_search_decode(self.model, src_tensor, self.device, beam_size=beam_size)
+            
+            clean_ids = [idx for idx in predicted_ids if idx not in [SOS_IDX, EOS_IDX, PAD_IDX]]
+            translation = self.sp.decode(clean_ids)
+            
+            return translation
+            
+        except Exception as e:
+            logger.error(f"Translation generation failed: {str(e)}")
+            return "[Error: Unable to process translation]"
 
 if __name__ == "__main__":
-    # CLI setup for manual testing from the terminal
     parser = argparse.ArgumentParser(description="Single-Input Transformer Inference")
-    parser.add_argument(
-        "--text",
-        type=str,
-        required=True,
-        help="The source sentence you want to translate",
-    )
+    parser.add_argument("--text", type=str, required=True, help="The source sentence")
+    parser.add_argument("--direction", type=str, choices=['war-tgl', 'tgl-war'], required=True, help="Translation direction")
     args = parser.parse_args()
 
-    # Initialize the translator and run the prediction
-    translator = TransformerTranslator()
+    # Determine paths based on direction argument
+    if args.direction == 'war-tgl':
+        m_path = "models/transformer/waray_tagalog_transformer_model.pt"
+        t_path = "models/transformer/tokenizer/waray_tagalog_bpe.model"
+    else:
+        m_path = "models/transformer/tagalog_waray_transformer_model.pt"
+        t_path = "models/transformer/tokenizer/tagalog_waray_bpe.model"
+
+    # Initialize the specific translator
+    translator = TransformerTranslator(model_path=m_path, tokenizer_path=t_path)
     result = translator.predict(args.text)
     
     print("\n" + "=" * 50)
-    print(f"Source     : {args.text}")
+    print(f"Source ({args.direction.upper()}) : {args.text}")
     print(f"Translation: {result}")
     print("=" * 50 + "\n")
