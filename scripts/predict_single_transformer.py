@@ -16,7 +16,7 @@ def beam_search_decode(
     model: torch.nn.Module,
     src_tensor: torch.Tensor,
     device: torch.device,
-    beam_size: int = 5,
+    beam_size: int = 5, 
     max_len: int = 40,
     alpha: float = 0.7,
 ):
