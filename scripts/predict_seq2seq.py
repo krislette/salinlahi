@@ -10,8 +10,6 @@ from src.models.recurrent.dataset import Vocabulary, SOS_IDX, EOS_IDX
 
 LANGUAGE_PAIRS = {
     "war": {"name": "Waray", "dir": "fil_war"},
-    "hil": {"name": "Hiligaynon", "dir": "fil_hil"},
-    "pam": {"name": "Kapampangan", "dir": "fil_pam"},
 }
 
 
@@ -71,14 +69,6 @@ def translate(
 
 def translate_to_waray(text: str, config: dict, device: torch.device) -> str:
     return translate(text, "war", config, device)
-
-
-def translate_to_hiligaynon(text: str, config: dict, device: torch.device) -> str:
-    return translate(text, "hil", config, device)
-
-
-def translate_to_kapampangan(text: str, config: dict, device: torch.device) -> str:
-    return translate(text, "pam", config, device)
 
 
 if __name__ == "__main__":
