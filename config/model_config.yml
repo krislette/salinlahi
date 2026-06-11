@@ -11,7 +11,7 @@ model:
 
 training:
   learning_rate: 0.001
-  num_epochs: 20
+  num_epochs: 10
   batch_size: 64
   teacher_forcing_ratio: 0.5   # Start with 50% teacher forcing
   teacher_forcing_min: 0.1     # Anneal down to 10% by the final epoch
