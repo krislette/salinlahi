@@ -1,1 +1,3 @@
 __pycache__/
+models/recurrent/
+data/processed/
