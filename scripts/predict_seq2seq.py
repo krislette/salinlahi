@@ -76,8 +76,8 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     tests = {
-        "fil_war": "saan ang pinakamalapit na ospital",
-        "war_fil": "hain an pinakaharani nga ospital",
+        "fil_war": "Sobrang saya ko na walang pasok sa trabaho bukas!",
+        "war_fil": "Nalipay kaayo ko nga wala koy trabaho ugma!",
     }
 
     for key, sentence in tests.items():
