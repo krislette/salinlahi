@@ -81,6 +81,6 @@ if __name__ == "__main__":
     for code, info in LANGUAGE_PAIRS.items():
         try:
             result = translate(test_sentence, code, config, device)
-            print(f"→ {info['name']}: {result}")
+            print(f"-> {info['name']}: {result}")
         except FileNotFoundError as e:
             print(f"[{info['name']}] Skipped — {e}")
