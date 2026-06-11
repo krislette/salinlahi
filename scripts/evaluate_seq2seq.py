@@ -18,7 +18,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 LANGUAGE_PAIRS = {
-    "war": "fil_war",
+    "fil_war": "fil_war",
+    "war_fil": "war_fil",
 }
 
 

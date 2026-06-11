@@ -20,7 +20,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 LANGUAGE_PAIRS = {
-    "war": "fil_war",
+    "fil_war": "fil -> war",
+    "war_fil": "war -> fil",
 }
 
 
@@ -29,15 +30,15 @@ def load_config(path: str = "config/model_config.yml") -> dict:
         return yaml.safe_load(f)
 
 
-def train_for_language(lang_code: str, config: dict, device: torch.device) -> None:
-    data_dir = Path(config["paths"]["processed_data_dir"]) / LANGUAGE_PAIRS[lang_code]
+def train_for_language(lang_dir: str, config: dict, device: torch.device) -> None:
+    data_dir = Path(config["paths"]["processed_data_dir"]) / lang_dir
     train_jsonl = str(data_dir / "train.jsonl")
     val_jsonl = str(data_dir / "val.jsonl")
 
     logger.info(f"Building vocabularies from {train_jsonl}")
     source_vocab, target_vocab = build_vocabularies_from_jsonl(train_jsonl)
 
-    artifact_dir = Path("models/recurrent") / LANGUAGE_PAIRS[lang_code]
+    artifact_dir = Path("models/recurrent") / lang_dir
     artifact_dir.mkdir(parents=True, exist_ok=True)
     source_vocab.save(str(artifact_dir / "source_vocab.json"))
     target_vocab.save(str(artifact_dir / "target_vocab.json"))
@@ -67,12 +68,11 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     logger.info(f"Using device: {device}")
 
-    # Convert CSV -> JSONL once, skips if already done
     prepare_data_from_csv(
-        csv_path="data/external/translation_pairs_fil_war.csv",
+        csv_dir="data/external",
         output_dir=config["paths"]["processed_data_dir"],
     )
 
-    for lang_code in LANGUAGE_PAIRS:
-        logger.info(f"=== Training fil -> {lang_code} ===")
-        train_for_language(lang_code, config, device)
+    for lang_dir, label in LANGUAGE_PAIRS.items():
+        logger.info(f"=== Training {label} ===")
+        train_for_language(lang_dir, config, device)
