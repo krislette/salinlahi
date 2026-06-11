@@ -9,10 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.preprocessing.preprocessor import prepare_data_from_csv
 from src.models.recurrent.seq2seq import build_model
 from src.models.recurrent.trainer import build_trainer
-from src.models.recurrent.dataset import (
-    build_vocabularies_from_jsonl,
-    build_dataloaders,
-)
+from src.models.recurrent.dataset import load_tokenizers, build_dataloaders
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s"
@@ -35,23 +32,20 @@ def train_for_language(lang_dir: str, config: dict, device: torch.device) -> Non
     train_jsonl = str(data_dir / "train.jsonl")
     val_jsonl = str(data_dir / "val.jsonl")
 
-    logger.info(f"Building vocabularies from {train_jsonl}")
-    source_vocab, target_vocab = build_vocabularies_from_jsonl(train_jsonl)
+    source_tokenizer, target_tokenizer = load_tokenizers(data_dir)
 
     artifact_dir = Path("models/recurrent") / lang_dir
     artifact_dir.mkdir(parents=True, exist_ok=True)
-    source_vocab.save(str(artifact_dir / "source_vocab.json"))
-    target_vocab.save(str(artifact_dir / "target_vocab.json"))
 
     train_loader, val_loader = build_dataloaders(
         train_jsonl,
         val_jsonl,
         batch_size=config["training"]["batch_size"],
-        source_vocab=source_vocab,
-        target_vocab=target_vocab,
+        source_tokenizer=source_tokenizer,
+        target_tokenizer=target_tokenizer,
     )
 
-    model = build_model(config, len(source_vocab), len(target_vocab), device)
+    model = build_model(config, len(source_tokenizer), len(target_tokenizer), device)
     logger.info(f"Parameters: {sum(p.numel() for p in model.parameters()):,}")
 
     config_copy = {

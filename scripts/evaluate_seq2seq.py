@@ -9,7 +9,6 @@ from collections import Counter
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.models.recurrent.seq2seq import build_model
-from src.models.recurrent.dataset import Vocabulary, SOS_IDX, EOS_IDX
 
 logging.basicConfig(
     level=logging.INFO,
@@ -74,6 +73,8 @@ def corpus_bleu(hypotheses: list[list[str]], references: list[list[str]]) -> flo
 
 
 def evaluate_language(lang_code: str, config: dict, device: torch.device) -> dict:
+    from src.models.recurrent.tokenizer import SPMTokenizer, BOS_IDX, EOS_IDX
+
     artifact_dir = Path("models/recurrent") / LANGUAGE_PAIRS[lang_code]
     checkpoint_path = artifact_dir / "best_model.pt"
 
@@ -82,15 +83,19 @@ def evaluate_language(lang_code: str, config: dict, device: torch.device) -> dic
             f"No checkpoint at {checkpoint_path}. Run train_seq2seq.py first."
         )
 
-    source_vocab = Vocabulary.load(str(artifact_dir / "source_vocab.json"))
-    target_vocab = Vocabulary.load(str(artifact_dir / "target_vocab.json"))
+    spm_path = str(
+        Path(config["paths"]["processed_data_dir"])
+        / LANGUAGE_PAIRS[lang_code]
+        / "spm.model"
+    )
+    source_tokenizer = SPMTokenizer(spm_path)
+    target_tokenizer = SPMTokenizer(spm_path)
 
     checkpoint = torch.load(checkpoint_path, map_location=device)
-
-    # Use the config the model was actually trained with, not the current file
     train_config = checkpoint.get("config", config)
-
-    model = build_model(train_config, len(source_vocab), len(target_vocab), device)
+    model = build_model(
+        train_config, len(source_tokenizer), len(target_tokenizer), device
+    )
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
 
@@ -111,28 +116,30 @@ def evaluate_language(lang_code: str, config: dict, device: torch.device) -> dic
                 continue
             record = json.loads(line)
 
-            source_ids = source_vocab.encode(record["source_tokens"])
+            source_ids = source_tokenizer.encode(record["source_text"])
             source_tensor = (
                 torch.tensor(source_ids, dtype=torch.long).unsqueeze(0).to(device)
             )
             source_lengths = torch.tensor([len(source_ids)], dtype=torch.long)
 
             predicted_ids, _ = model.translate(
-                source_tensor, source_lengths, SOS_IDX, EOS_IDX
+                source_tensor, source_lengths, BOS_IDX, EOS_IDX
             )
-            hyp_tokens = target_vocab.decode(predicted_ids, skip_special_tokens=True)
-            ref_tokens = record["target_tokens"]
+            hyp_tokens = target_tokenizer.decode(
+                predicted_ids, skip_special_tokens=True
+            ).split()
+            ref_tokens = record["target_text"].split()
 
             hypotheses.append(hyp_tokens)
             references.append(ref_tokens)
 
     bleu = corpus_bleu(hypotheses, references)
     results = {
-        "language_pair": f"fil -> {lang_code}",
+        "language_pair": lang_code,
         "num_sentences": len(hypotheses),
         "bleu": round(bleu, 4),
     }
-    logger.info(f"fil -> {lang_code} | Sentences: {len(hypotheses)} | BLEU: {bleu:.2f}")
+    logger.info(f"{lang_code} | Sentences: {len(hypotheses)} | BLEU: {bleu:.2f}")
     return results
 
 
