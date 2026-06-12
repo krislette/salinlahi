@@ -2,9 +2,9 @@ base_dir: "."
 
 paths:
   # Model Weights
-  transformer_model: "models/transformer/waray_transformer_model.pt"
-  tokenizer_model: "models/transformer/tokenizer/waray_bpe.model"
+  transformer_model: "models/transformer/tagalog_waray_transformer_model.pt"
+  tokenizer_model: "models/transformer/tokenizer/tagalog_waray_bpe.model"
   
   # Datasets
-  json_data: "data/processed/waray/tokenized_waray.jsonl"
-  csv_data: "data/processed/waray/translation_pairs_waray.csv"
+  json_data: "data/processed/waray/tokenized_tagalog_waray.jsonl"
+  csv_data: "data/processed/waray/translation_pairs_tagalog_waray.csv"

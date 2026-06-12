@@ -7,7 +7,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 
 # Imports mainly for the transformer model
-from src.utils.helpers import TRAIN_DATA_PATH, TOKENIZER_MODEL, TRANSFORMER_MODEL
+from src.utils.helpers import JSON_DATA, TOKENIZER_MODEL, TRANSFORMER_MODEL
 from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
 from src.models.transformer.tokenizer import TranslationDataset, collate_fn, PAD_IDX
 from src.models.transformer.helpers import (
@@ -27,7 +27,7 @@ def train_transformer(batch_size: int = 512, epochs: int = 100):
 
     # Data Preparation
     all_data = []
-    with open(TRAIN_DATA_PATH, 'r', encoding='utf-8') as f:
+    with open(JSON_DATA, 'r', encoding='utf-8') as f:
         for line in f:
             all_data.append(json.loads(line))
 
@@ -158,4 +158,4 @@ def train_transformer(batch_size: int = 512, epochs: int = 100):
 if __name__ == "__main__":
     # Choose whichever training you need to do
     # train_recurrent(x, y)
-    train_transformer(batch_size=512, epochs=100)
+    train_transformer(batch_size=256, epochs=100)
