@@ -47,26 +47,62 @@ def _clipped_precision(
     return total_clipped, total_count
 
 
-def corpus_bleu(hypotheses: list[list[str]], references: list[list[str]]) -> float:
-    """Computes corpus-level BLEU-4."""
+def corpus_bleu_n(
+    hypotheses: list[list[str]], references: list[list[str]], n: int
+) -> float:
+    """Corpus-level BLEU-N."""
     import math
 
     hyp_len = sum(len(h) for h in hypotheses)
     ref_len = sum(len(r) for r in references)
 
-    # Brevity penalty
     if hyp_len == 0:
         return 0.0
     bp = 1.0 if hyp_len >= ref_len else math.exp(1 - ref_len / hyp_len)
 
     log_avg = 0.0
-    for n in range(1, 5):
-        clipped, total = _clipped_precision(hypotheses, references, n)
+    for i in range(1, n + 1):
+        clipped, total = _clipped_precision(hypotheses, references, i)
         if total == 0 or clipped == 0:
             return 0.0
         log_avg += math.log(clipped / total)
 
-    return bp * math.exp(log_avg / 4) * 100
+    return bp * math.exp(log_avg / n) * 100
+
+
+def chrf(hypotheses: list[list[str]], references: list[list[str]], n: int = 6) -> float:
+    """
+    Corpus-level chrF — character n-gram F-score.
+    Joins tokens back to string then compares character n-grams.
+    """
+
+    def char_ngrams(text: str, n: int) -> Counter:
+        return Counter(text[i : i + n] for i in range(len(text) - n + 1))
+
+    total_prec, total_rec, count = 0.0, 0.0, 0
+    for hyp_tokens, ref_tokens in zip(hypotheses, references):
+        hyp_str = " ".join(hyp_tokens)
+        ref_str = " ".join(ref_tokens)
+        hyp_counts = char_ngrams(hyp_str, n)
+        ref_counts = char_ngrams(ref_str, n)
+
+        if not hyp_counts or not ref_counts:
+            continue
+
+        matched = sum(min(hyp_counts[k], ref_counts[k]) for k in hyp_counts)
+        prec = matched / sum(hyp_counts.values())
+        rec = matched / sum(ref_counts.values())
+        total_prec += prec
+        total_rec += rec
+        count += 1
+
+    if count == 0:
+        return 0.0
+    avg_prec = total_prec / count
+    avg_rec = total_rec / count
+    if avg_prec + avg_rec == 0:
+        return 0.0
+    return 2 * avg_prec * avg_rec / (avg_prec + avg_rec) * 100
 
 
 # Evaluation
@@ -133,13 +169,22 @@ def evaluate_language(lang_code: str, config: dict, device: torch.device) -> dic
             hypotheses.append(hyp_tokens)
             references.append(ref_tokens)
 
-    bleu = corpus_bleu(hypotheses, references)
     results = {
         "language_pair": lang_code,
         "num_sentences": len(hypotheses),
-        "bleu": round(bleu, 4),
+        "bleu_1": round(corpus_bleu_n(hypotheses, references, 1), 4),
+        "bleu_2": round(corpus_bleu_n(hypotheses, references, 2), 4),
+        "bleu_3": round(corpus_bleu_n(hypotheses, references, 3), 4),
+        "bleu_4": round(corpus_bleu_n(hypotheses, references, 4), 4),
+        "chrf": round(chrf(hypotheses, references), 4),
     }
-    logger.info(f"{lang_code} | Sentences: {len(hypotheses)} | BLEU: {bleu:.2f}")
+    logger.info(
+        f"{lang_code} | Sentences: {len(hypotheses)} | "
+        f"BLEU-1: {results['bleu_1']} | BLEU-2: {results['bleu_2']} | "
+        f"BLEU-3: {results['bleu_3']} | BLEU-4: {results['bleu_4']} | "
+        f"chrF: {results['chrf']}"
+    )
+
     return results
 
 
