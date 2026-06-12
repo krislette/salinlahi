@@ -58,6 +58,7 @@ def train_for_language(lang_dir: str, config: dict, device: torch.device) -> Non
 
 
 if __name__ == "__main__":
+    # Start with data config for preprocessing
     config = load_config("config/data_config.yml")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     logger.info(f"Using device: {device}")
@@ -66,6 +67,9 @@ if __name__ == "__main__":
         csv_dir=config["paths"]["seq2seq"]["external_dir"],
         output_dir=config["paths"]["seq2seq"]["processed_dir"],
     )
+
+    # Switch to model config for training
+    config = load_config("config/model_config.yml")
 
     for lang_dir, label in LANGUAGE_PAIRS.items():
         logger.info(f"=== Training {label} ===")
