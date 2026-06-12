@@ -12,7 +12,7 @@ paths:
   # Seq2Seq RNN Paths
   seq2seq:
     datasets:
-      fil_war: "data/external/translation_pairs_fil_war.csv"
-      war_fil: "data/external/translation_pairs_war_fil.csv"
+      fil_war: "translation_pairs_fil_war.csv"
+      war_fil: "translation_pairs_war_fil.csv"
     external_dir: "data/external"
     processed_dir: "data/processed"
