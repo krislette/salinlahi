@@ -1,13 +1,19 @@
 import csv
 import json
 import random
+import yaml
 from pathlib import Path
 from src.models.recurrent.tokenizer import SPMTokenizer
 
-DATASETS = {
-    "fil_war": "translation_pairs_fil_war.csv",
-    "war_fil": "translation_pairs_war_fil.csv",
-}
+
+def _load_dataset_config():
+    """Load dataset paths from config instead of hardcoding."""
+    with open("config/data_config.yml", "r") as f:
+        config = yaml.safe_load(f)
+    return config["paths"]["seq2seq"]["datasets"]
+
+
+DATASETS = _load_dataset_config()
 
 
 def prepare_data_from_csv(

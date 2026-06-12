@@ -63,8 +63,8 @@ if __name__ == "__main__":
     logger.info(f"Using device: {device}")
 
     prepare_data_from_csv(
-        csv_dir="data/external",
-        output_dir=config["paths"]["processed_data_dir"],
+        csv_dir=config["paths"]["seq2seq"]["external_dir"],
+        output_dir=config["paths"]["seq2seq"]["processed_dir"],
     )
 
     for lang_dir, label in LANGUAGE_PAIRS.items():
