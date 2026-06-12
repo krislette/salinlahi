@@ -14,7 +14,7 @@ def prepare_data_from_csv(
     csv_dir: str,
     output_dir: str,
     val_split: float = 0.1,
-    vocab_size: int = 8000,
+    vocab_size: int = 16000,
     seed: int = 42,
 ) -> None:
     """

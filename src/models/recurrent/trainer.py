@@ -305,6 +305,8 @@ def build_trainer(model: Seq2Seq, config: dict, device: torch.device) -> Trainer
     optimizer = Adam(model.parameters(), lr=training_cfg["learning_rate"])
 
     # CrossEntropyLoss with ignore_index so padding positions don't contribute to the loss
-    criterion = nn.CrossEntropyLoss(ignore_index=training_cfg["pad_token_idx"])
+    criterion = nn.CrossEntropyLoss(
+        ignore_index=training_cfg["pad_token_idx"], label_smoothing=0.1
+    )
 
     return Trainer(model, optimizer, criterion, config, device)
