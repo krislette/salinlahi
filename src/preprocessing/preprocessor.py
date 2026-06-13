@@ -45,7 +45,7 @@ def prepare_data_from_csv(
             continue
 
         pair_dir.mkdir(parents=True, exist_ok=True)
-        train_rows, test_rows = [], []
+        train_rows, val_rows, test_rows = [], [], []
 
         with open(csv_dir / csv_filename, "r", encoding="utf-8") as f:
             for row in csv.DictReader(f):
@@ -55,14 +55,15 @@ def prepare_data_from_csv(
                 }
                 if row["split"] == "test":
                     test_rows.append(record)
-                else:
+                elif row["split"] == "val":
+                    val_rows.append(record)
+                elif row["split"] == "train":
                     train_rows.append(record)
 
         random.shuffle(train_rows)
-        val_size = max(1, int(len(train_rows) * val_split))
         splits = {
-            "train": train_rows[val_size:],
-            "val": train_rows[:val_size],
+            "train": train_rows,
+            "val": val_rows,
             "test": test_rows,
         }
         for split_name, rows in splits.items():
