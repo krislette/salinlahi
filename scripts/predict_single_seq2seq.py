@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 class Seq2SeqTranslator:
     """
     A unified wrapper class for the Seq2Seq model.
-    Instantiate this twice in your API server (once for FIL-WAR, once for WAR-FIL).
+    Instantiate this twice in your API server (once for TGL-WAR, once for WAR-TGL).
     """
 
     def __init__(
@@ -95,17 +95,17 @@ if __name__ == "__main__":
     parser.add_argument(
         "--direction",
         type=str,
-        choices=["fil-war", "war-fil"],
+        choices=["tgl-war", "war-tgl"],
         required=True,
         help="Translation direction",
     )
     args = parser.parse_args()
 
     # Determine paths based on direction argument
-    if args.direction == "war-fil":
+    if args.direction == "war-tgl":
         m_path = "models/recurrent/war_fil/best_model.pt"
         t_path = "data/processed/war_fil/spm.model"
-    else:  # fil-war
+    else:  # tgl-war
         m_path = "models/recurrent/fil_war/best_model.pt"
         t_path = "data/processed/fil_war/spm.model"
 
