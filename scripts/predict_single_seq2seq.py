@@ -64,7 +64,7 @@ class Seq2SeqTranslator:
 
         try:
             # Encode source sentence (limits to max 100 tokens)
-            source_ids = self.tokenizer.encode(sentence.strip())[:100]
+            source_ids = self.tokenizer.encode(sentence.lower().strip())[:100]
             source_tensor = (
                 torch.tensor(source_ids, dtype=torch.long).unsqueeze(0).to(self.device)
             )
