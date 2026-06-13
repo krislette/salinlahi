@@ -3,16 +3,16 @@
 
 model:
   rnn_type: "gru"           # Options: "rnn", "gru", "lstm"
-  embedding_dim: 256        # Size of token embedding vectors
+  embedding_dim: 512        # Size of token embedding vectors
   hidden_size: 512          # Hidden state size for both encoder and decoder
-  num_encoder_layers: 2     # Number of stacked RNN layers in the encoder
+  num_encoder_layers: 6     # Number of stacked RNN layers in the encoder
   dropout: 0.3              # Dropout rate applied to embeddings and between RNN layers
   pad_token_idx: 0          # Token id used for padding — must match the tokenizer
 
 training:
   learning_rate: 0.001
   num_epochs: 20
-  batch_size: 128
+  batch_size: 512
   teacher_forcing_ratio: 0.5   # Start with 50% teacher forcing
   teacher_forcing_min: 0.1     # Anneal down to 10% by the final epoch
   gradient_clip: 1.0           # Max gradient norm to clip to (prevents exploding gradients)
