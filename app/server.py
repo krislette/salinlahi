@@ -16,6 +16,11 @@ from app.validators import validate_translation_request
 
 logger = logging.getLogger(__name__)
 
+_MODEL_DISPLAY_NAMES = {
+    "transformer": "BaselineSeq2SeqTransformer",
+    "recurrent": "Seq2SeqRNN",
+}
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -46,6 +51,12 @@ app.add_middleware(
 _max_characters: int = registry.config.get("validation", {}).get("max_characters", 250)
 _model_configs: dict = registry.config.get("models", {})
 
+# Pre-compute the set of valid (direction, model_type) pairs from config
+_supported_keys: set[tuple[str, str]] = {
+    (cfg["direction"], cfg["model_type"])
+    for cfg in _model_configs.values()
+}
+
 
 @app.get("/", tags=["Health"])
 def health_check():
@@ -67,10 +78,15 @@ def translate(request: TranslationRequest):
 
     - text: The source sentence to translate (max 250 characters).
     - direction: Either "tgl-war" (Tagalog → Waray) or "war-tgl" (Waray → Tagalog).
+    - model: Either "transformer" or "recurrent".
     """
-    text = validate_translation_request(request, max_characters=_max_characters)
+    text = validate_translation_request(
+        request,
+        max_characters=_max_characters,
+        supported_keys=_supported_keys,
+    )
 
-    translator = registry.get_translator(request.direction)
+    translator = registry.get_translator(request.direction, request.model)
     translation = translator.predict(text)
 
     if not translation:
@@ -79,28 +95,37 @@ def translate(request: TranslationRequest):
             detail="The model returned an empty translation. Please try again.",
         )
 
-    cfg = next(c for c in _model_configs.values() if c["direction"] == request.direction)
+    cfg = next(
+        c for c in _model_configs.values()
+        if c["direction"] == request.direction and c["model_type"] == request.model
+    )
 
     return TranslationResponse(
         translation=translation,
         direction=request.direction,
         source_language=cfg["source_language"],
         target_language=cfg["target_language"],
-        model="BaselineSeq2SeqTransformer",
+        model=_MODEL_DISPLAY_NAMES.get(request.model, request.model),
     )
 
 
 @app.get("/api/v1/languages", response_model=LanguagesResponse, tags=["Translation"])
 def get_languages():
     """Returns the list of supported translation directions."""
-    pairs = [
-        LanguagePair(
-            direction=cfg["direction"],
-            source_language=cfg["source_language"],
-            target_language=cfg["target_language"],
-        )
-        for cfg in _model_configs.values()
-    ]
+    seen_directions = set()
+    pairs = []
+
+    for cfg in _model_configs.values():
+        if cfg["direction"] not in seen_directions:
+            pairs.append(
+                LanguagePair(
+                    direction=cfg["direction"],
+                    source_language=cfg["source_language"],
+                    target_language=cfg["target_language"],
+                )
+            )
+            seen_directions.add(cfg["direction"])
+
     return LanguagesResponse(supported_pairs=pairs)
 
 
@@ -114,5 +139,5 @@ def get_model_info():
         embedding_size=512,
         attention_heads=8,
         feedforward_dim=2048,
-        supported_directions=[cfg["direction"] for cfg in _model_configs.values()],
+        supported_directions=list({cfg["direction"] for cfg in _model_configs.values()}),
     )
