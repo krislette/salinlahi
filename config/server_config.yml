@@ -1,0 +1,30 @@
+server:
+  host: "0.0.0.0"
+  port: 7860
+
+cors:
+  allowed_origins:
+    - "https://salinlahi-coral.vercel.app"
+    - "http://localhost:3000"
+  allowed_methods:
+    - "GET"
+    - "POST"
+  allowed_headers:
+    - "*"
+
+validation:
+  max_characters: 250
+
+models:
+  tagalog_waray:
+    model_path: "models/transformer/tagalog_waray_transformer_model.pt"
+    tokenizer_path: "models/transformer/tokenizer/tagalog_waray_bpe.model"
+    direction: "tgl-war"
+    source_language: "Tagalog"
+    target_language: "Waray"
+  waray_tagalog:
+    model_path: "models/transformer/waray_tagalog_transformer_model.pt"
+    tokenizer_path: "models/transformer/tokenizer/waray_tagalog_bpe.model"
+    direction: "war-tgl"
+    source_language: "Waray"
+    target_language: "Tagalog"

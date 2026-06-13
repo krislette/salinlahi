@@ -5,6 +5,14 @@ paths:
   transformer_model: "models/transformer/tagalog_waray_transformer_model.pt"
   tokenizer_model: "models/transformer/tokenizer/tagalog_waray_bpe.model"
   
-  # Datasets
+  # Transformer Datasets
   json_data: "data/processed/waray/tokenized_tagalog_waray.jsonl"
   csv_data: "data/processed/waray/translation_pairs_tagalog_waray.csv"
+
+  # Seq2Seq RNN Paths
+  seq2seq:
+    datasets:
+      fil_war: "translation_pairs_fil_war.csv"
+      war_fil: "translation_pairs_war_fil.csv"
+    external_dir: "data/external"
+    processed_dir: "data/processed"
