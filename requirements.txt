@@ -1,5 +1,6 @@
 click==8.4.1
 colorama==0.4.6
+fastapi==0.136.3
 filelock==3.29.0
 fsspec==2026.4.0
 Jinja2==3.1.6
@@ -11,6 +12,8 @@ networkx==3.6.1
 nltk==3.9.4
 numpy==2.4.6
 pandas==3.0.3
+pydantic==2.13.4
+pydantic_core==2.46.4
 portalocker==3.2.0
 python-dateutil==2.9.0.post0
 pywin32==312
