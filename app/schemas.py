@@ -5,6 +5,7 @@ from pydantic import BaseModel
 class TranslationRequest(BaseModel):
     text: str
     direction: Literal["tgl-war", "war-tgl"]
+    model: Literal["transformer", "recurrent"]
 
 
 class TranslationResponse(BaseModel):
