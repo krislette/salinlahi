@@ -26,11 +26,22 @@ class LanguagesResponse(BaseModel):
     supported_pairs: list[LanguagePair]
 
 
-class ModelInfoResponse(BaseModel):
+class BaseModelInfoResponse(BaseModel):
     architecture: str
+    supported_directions: list[str]
+
+
+class TransformerInfoResponse(BaseModelInfoResponse):
     num_encoder_layers: int
     num_decoder_layers: int
     embedding_size: int
     attention_heads: int
     feedforward_dim: int
-    supported_directions: list[str]
+
+
+class RecurrentInfoResponse(BaseModelInfoResponse):
+    rnn_type: str
+    embedding_dim: int
+    hidden_size: int
+    num_encoder_layers: int
+    dropout: float

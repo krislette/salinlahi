@@ -15,6 +15,23 @@ cors:
 validation:
   max_characters: 250
 
+architecture:
+  transformer:
+    architecture: "BaselineSeq2SeqTransformer"
+    num_encoder_layers: 6
+    num_decoder_layers: 6
+    embedding_size: 512
+    attention_heads: 8
+    feedforward_dim: 2048
+
+  recurrent:
+    architecture: "Seq2SeqRNN"
+    rnn_type: "gru"
+    embedding_dim: 512
+    hidden_size: 512
+    num_encoder_layers: 6
+    dropout: 0.3
+
 models:
   transformer_tagalog_waray:
     model_type: "transformer"

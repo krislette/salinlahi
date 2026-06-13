@@ -4,12 +4,15 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from typing import Annotated, Union
+
 from app.schemas import (
     TranslationRequest,
     TranslationResponse,
     LanguagePair,
     LanguagesResponse,
-    ModelInfoResponse,
+    TransformerInfoResponse,
+    RecurrentInfoResponse,
 )
 from app.utils import registry
 from app.validators import validate_translation_request
@@ -50,11 +53,26 @@ app.add_middleware(
 
 _max_characters: int = registry.config.get("validation", {}).get("max_characters", 250)
 _model_configs: dict = registry.config.get("models", {})
+_architecture_configs: dict = registry.config.get("architecture", {})
 
 # Pre-compute the set of valid (direction, model_type) pairs from config
 _supported_keys: set[tuple[str, str]] = {
     (cfg["direction"], cfg["model_type"])
     for cfg in _model_configs.values()
+}
+
+# Pre-compute supported directions per model type
+_supported_directions_by_model: dict[str, list[str]] = {}
+for cfg in _model_configs.values():
+    _supported_directions_by_model.setdefault(cfg["model_type"], [])
+    direction = cfg["direction"]
+    if direction not in _supported_directions_by_model[cfg["model_type"]]:
+        _supported_directions_by_model[cfg["model_type"]].append(direction)
+
+# Maps model type to its response schema constructor
+_MODEL_INFO_SCHEMAS = {
+    "transformer": TransformerInfoResponse,
+    "recurrent": RecurrentInfoResponse,
 }
 
 
@@ -76,9 +94,9 @@ def translate(request: TranslationRequest):
     """
     Translates text between Tagalog and Waray.
 
-    - text: The source sentence to translate (max 250 characters).
-    - direction: Either "tgl-war" (Tagalog → Waray) or "war-tgl" (Waray → Tagalog).
-    - model: Either "transformer" or "recurrent".
+    - **text**: The source sentence to translate (max 250 characters).
+    - **direction**: Either "tgl-war" (Tagalog → Waray) or "war-tgl" (Waray → Tagalog).
+    - **model**: Either "transformer" or "recurrent".
     """
     text = validate_translation_request(
         request,
@@ -129,15 +147,26 @@ def get_languages():
     return LanguagesResponse(supported_pairs=pairs)
 
 
-@app.get("/api/v1/model/info", response_model=ModelInfoResponse, tags=["Model"])
-def get_model_info():
-    """Returns the architecture details of the deployed translation model."""
-    return ModelInfoResponse(
-        architecture="BaselineSeq2SeqTransformer",
-        num_encoder_layers=6,
-        num_decoder_layers=6,
-        embedding_size=512,
-        attention_heads=8,
-        feedforward_dim=2048,
-        supported_directions=list({cfg["direction"] for cfg in _model_configs.values()}),
+@app.get("/api/v1/model/info", tags=["Model"])
+def get_model_info(
+    model: Annotated[str, "The model architecture to query: 'transformer' or 'recurrent'"],
+) -> Union[TransformerInfoResponse, RecurrentInfoResponse]:
+    """
+    Returns the architecture details of the specified translation model.
+
+    - **model**: Either "transformer" or "recurrent".
+    """
+    if model not in _architecture_configs:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unknown model '{model}'. Must be one of: {list(_architecture_configs.keys())}",
+        )
+
+    arch_cfg = _architecture_configs[model]
+    supported_directions = _supported_directions_by_model.get(model, [])
+    schema_class = _MODEL_INFO_SCHEMAS[model]
+
+    return schema_class(
+        **arch_cfg,
+        supported_directions=supported_directions,
     )
