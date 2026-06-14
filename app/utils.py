@@ -1,8 +1,11 @@
 import logging
+import os
+import yaml
+
 from pathlib import Path
 from typing import Union
 
-import yaml
+from huggingface_hub import hf_hub_download
 
 from scripts.predict_single_transformer import TransformerTranslator
 from scripts.predict_single_seq2seq import Seq2SeqTranslator
@@ -63,15 +66,19 @@ class ModelRegistry:
                 )
 
             if not model_path.exists():
-                raise FileNotFoundError(
-                    f"Model file not found for '{name}' ({direction}, {model_type}): {model_path}\n"
-                    "Ensure the model weights are present before starting the server."
+                os.makedirs(model_path.parent, exist_ok=True)
+                hf_hub_download(
+                    repo_id="krislette/salinlahi",
+                    filename=f"{model_path.relative_to(BASE_DIR)}",
+                    local_dir=BASE_DIR,
                 )
 
             if not tokenizer_path.exists():
-                raise FileNotFoundError(
-                    f"Tokenizer file not found for '{name}' ({direction}, {model_type}): {tokenizer_path}\n"
-                    "Ensure the tokenizer model is present before starting the server."
+                os.makedirs(tokenizer_path.parent, exist_ok=True)
+                hf_hub_download(
+                    repo_id="krislette/salinlahi",
+                    filename=f"{tokenizer_path.relative_to(BASE_DIR)}",
+                    local_dir=BASE_DIR,
                 )
 
             logger.info(
@@ -84,9 +91,7 @@ class ModelRegistry:
                 tokenizer_path=str(tokenizer_path),
             )
 
-            logger.info(
-                f"'{model_type}' model for '{direction}' loaded successfully."
-            )
+            logger.info(f"'{model_type}' model for '{direction}' loaded successfully.")
 
     def get_translator(self, direction: str, model_type: str) -> AnyTranslator:
         """Returns the translator for the given direction and model type."""

@@ -26,10 +26,8 @@ jobs:
           cp -r src/            hf-space/
           cp -r config/         hf-space/
           cp -r scripts/        hf-space/
-          cp -r models/         hf-space/
           cp Dockerfile         hf-space/
           cp .dockerignore      hf-space/
-          cp .gitignore         hf-space/
           cp requirements.txt   hf-space/
 
           cd hf-space
