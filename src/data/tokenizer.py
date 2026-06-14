@@ -53,7 +53,7 @@ class PhilippineTokenizer:
         self.lowercase = lowercase
         self.split_punctuation = split_punctuation
         # Matches Unicode word characters (covers Filipino diacritics)
-        self._word_re = re.compile(r"[\w\u00C0-\u024F\u1E00-\u1EFF]+|[^\s\w]", re.UNICODE)
+        self._word_re = re.compile(r"[\w\u00C0-\u024F\u1E00-\u1EFF'\u2019\-]+", re.UNICODE)
 
     def tokenize(self, text: str) -> list[str]:
         """Return a flat list of string tokens."""
