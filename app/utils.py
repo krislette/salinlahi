@@ -68,7 +68,7 @@ class ModelRegistry:
             if not model_path.exists():
                 os.makedirs(model_path.parent, exist_ok=True)
                 hf_hub_download(
-                    repo_id="krislette/salinlahi-models",
+                    repo_id="krislette/salinlahi",
                     filename=f"{model_path.relative_to(BASE_DIR)}",
                     local_dir=BASE_DIR,
                 )
@@ -76,7 +76,7 @@ class ModelRegistry:
             if not tokenizer_path.exists():
                 os.makedirs(tokenizer_path.parent, exist_ok=True)
                 hf_hub_download(
-                    repo_id="krislette/salinlahi-models",
+                    repo_id="krislette/salinlahi",
                     filename=f"{tokenizer_path.relative_to(BASE_DIR)}",
                     local_dir=BASE_DIR,
                 )
