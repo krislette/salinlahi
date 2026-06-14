@@ -15,16 +15,52 @@ cors:
 validation:
   max_characters: 250
 
+architecture:
+  transformer:
+    architecture: "BaselineSeq2SeqTransformer"
+    num_encoder_layers: 6
+    num_decoder_layers: 6
+    embedding_size: 512
+    attention_heads: 8
+    feedforward_dim: 2048
+
+  recurrent:
+    architecture: "Seq2SeqRNN"
+    rnn_type: "gru"
+    embedding_dim: 512
+    hidden_size: 512
+    num_encoder_layers: 6
+    dropout: 0.3
+
 models:
-  tagalog_waray:
+  transformer_tagalog_waray:
+    model_type: "transformer"
     model_path: "models/transformer/tagalog_waray_transformer_model.pt"
     tokenizer_path: "models/transformer/tokenizer/tagalog_waray_bpe.model"
     direction: "tgl-war"
     source_language: "Tagalog"
     target_language: "Waray"
-  waray_tagalog:
+
+  transformer_waray_tagalog:
+    model_type: "transformer"
     model_path: "models/transformer/waray_tagalog_transformer_model.pt"
     tokenizer_path: "models/transformer/tokenizer/waray_tagalog_bpe.model"
+    direction: "war-tgl"
+    source_language: "Waray"
+    target_language: "Tagalog"
+
+  recurrent_tagalog_waray:
+    model_type: "recurrent"
+    model_path: "models/recurrent/fil_war/best_model.pt"
+    tokenizer_path: "data/processed/fil_war/spm.model"
+    direction: "tgl-war"
+    source_language: "Tagalog"
+    target_language: "Waray"
+
+  recurrent_waray_tagalog:
+    model_type: "recurrent"
+    model_path: "models/recurrent/war_fil/best_model.pt"
+    tokenizer_path: "data/processed/war_fil/spm.model"
     direction: "war-tgl"
     source_language: "Waray"
     target_language: "Tagalog"
