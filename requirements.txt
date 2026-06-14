@@ -1,8 +1,8 @@
-fastapi==0.136.3
+fastapi==0.137.0
+huggingface_hub==1.12.0
 nltk==3.9.4
 pandas==3.0.3
 pydantic==2.13.4
-PyYAML==6.0.2
 PyYAML==6.0.3
 sacrebleu==2.6.0
 sentencepiece==0.2.1
