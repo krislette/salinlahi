@@ -6,6 +6,8 @@ import logging
 from src.models.recurrent.seq2seq import build_model
 from src.models.recurrent.tokenizer import SPMTokenizer, BOS_IDX, EOS_IDX
 
+from preprocess import preprocess_text
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -64,7 +66,8 @@ class Seq2SeqTranslator:
 
         try:
             # Encode source sentence (limits to max 100 tokens)
-            source_ids = self.tokenizer.encode(sentence.lower().strip())[:100]
+            cleaned_sentence = preprocess_text(sentence)
+            source_ids = self.tokenizer.encode(cleaned_sentence.lower())[:100]
             source_tensor = (
                 torch.tensor(source_ids, dtype=torch.long).unsqueeze(0).to(self.device)
             )

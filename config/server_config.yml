@@ -25,7 +25,7 @@ architecture:
     feedforward_dim: 2048
 
   recurrent:
-    architecture: "Seq2SeqRNN"
+    architecture: "Seq2SeqGRU"
     rnn_type: "gru"
     embedding_dim: 512
     hidden_size: 512
