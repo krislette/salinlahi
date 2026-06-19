@@ -1,5 +1,5 @@
 __pycache__/
-models/recurrent/
+models/
 data/processed/
 *.pt
 venv/
