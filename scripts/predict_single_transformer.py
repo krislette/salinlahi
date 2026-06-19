@@ -7,6 +7,8 @@ from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
 from src.models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
+from preprocess import preprocess_text
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -134,7 +136,8 @@ class TransformerTranslator:
 
         try:
             # Limits the amount of input to max of 100
-            raw_tokens = self.sp.encode(str(sentence.strip()), out_type=int)[:100]
+            cleaned_sentence = preprocess_text(sentence)
+            raw_tokens = self.sp.encode(str(cleaned_sentence), out_type=int)[:100]
             src_tokens = [SOS_IDX] + raw_tokens + [EOS_IDX]
             src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
 

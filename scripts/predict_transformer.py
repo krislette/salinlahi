@@ -13,6 +13,8 @@ from src.models.transformer.tokenizer import (
 )
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
+from preprocess import preprocess_text
+
 SAMPLE_SIZE = 1500
 MAX_SEQ_LEN = 128
 BEAM_SIZE = 3
@@ -111,7 +113,8 @@ def beam_search_decode(
 def translate_sentence(
     sentence: str, model: torch.nn.Module, sp, device: torch.device
 ) -> str:
-    src_tokens = [SOS_IDX] + sp.encode(str(sentence), out_type=int) + [EOS_IDX]
+    cleaned_sentence = preprocess_text(sentence)
+    src_tokens = [SOS_IDX] + sp.encode(str(cleaned_sentence), out_type=int) + [EOS_IDX]
     src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
 
     predicted_ids = beam_search_decode(model, src_tensor, device, beam_size=BEAM_SIZE)
