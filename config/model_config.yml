@@ -5,7 +5,7 @@ model:
   rnn_type: "gru"           # Options: "rnn", "gru", "lstm"
   embedding_dim: 512        # Size of token embedding vectors
   hidden_size: 512          # Hidden state size for both encoder and decoder
-  num_encoder_layers: 6     # Number of stacked RNN layers in the encoder
+  num_encoder_layers: 2     # Number of stacked RNN layers in the encoder
   dropout: 0.3              # Dropout rate applied to embeddings and between RNN layers
   pad_token_idx: 0          # Token id used for padding — must match the tokenizer
 

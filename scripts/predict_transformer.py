@@ -1,12 +1,16 @@
 import argparse
-import time
 
 import pandas as pd
 import torch
 
 from src.utils.helpers import TRANSFORMER_MODEL, TOKENIZER_MODEL, JSON_DATA, CSV_DATA
 from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
-from src.models.transformer.tokenizer import TranslationDataset, PAD_IDX, SOS_IDX, EOS_IDX
+from src.models.transformer.tokenizer import (
+    TranslationDataset,
+    PAD_IDX,
+    SOS_IDX,
+    EOS_IDX,
+)
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
 SAMPLE_SIZE = 1500
@@ -23,7 +27,7 @@ def configure_device() -> torch.device:
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
         torch.cuda.reset_peak_memory_stats(device)
-        initial_vram = torch.cuda.memory_allocated(device) / (1024 ** 2)
+        initial_vram = torch.cuda.memory_allocated(device) / (1024**2)
         print(f"Initial GPU Memory Usage: {initial_vram:.2f} MB")
 
     return device
@@ -41,9 +45,11 @@ def beam_search_decode(
     src_tensor = src_tensor.to(device)
 
     with torch.no_grad():
-        src_mask = torch.zeros((src_tensor.shape[0], src_tensor.shape[0]), device=device, dtype=torch.bool)
+        src_mask = torch.zeros(
+            (src_tensor.shape[0], src_tensor.shape[0]), device=device, dtype=torch.bool
+        )
 
-        with torch.amp.autocast('cuda' if torch.cuda.is_available() else 'cpu'):
+        with torch.amp.autocast("cuda" if torch.cuda.is_available() else "cpu"):
             memory = model.encode(src_tensor, src_mask)
 
         beams = [([SOS_IDX], 0.0)]
@@ -57,10 +63,14 @@ def beam_search_decode(
                     completed.append((seq, score))
                     continue
 
-                trg_tensor = torch.tensor(seq, dtype=torch.long, device=device).unsqueeze(1)
-                trg_mask = generate_square_subsequent_mask(trg_tensor.size(0)).to(device)
+                trg_tensor = torch.tensor(
+                    seq, dtype=torch.long, device=device
+                ).unsqueeze(1)
+                trg_mask = generate_square_subsequent_mask(trg_tensor.size(0)).to(
+                    device
+                )
 
-                with torch.amp.autocast('cuda' if torch.cuda.is_available() else 'cpu'):
+                with torch.amp.autocast("cuda" if torch.cuda.is_available() else "cpu"):
                     out = model.decode(trg_tensor, memory, trg_mask)
                     logits = model.generator(out[-1])
 
@@ -98,7 +108,9 @@ def beam_search_decode(
     return best_seq
 
 
-def translate_sentence(sentence: str, model: torch.nn.Module, sp, device: torch.device) -> str:
+def translate_sentence(
+    sentence: str, model: torch.nn.Module, sp, device: torch.device
+) -> str:
     src_tokens = [SOS_IDX] + sp.encode(str(sentence), out_type=int) + [EOS_IDX]
     src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
 
@@ -112,11 +124,6 @@ def run_transformer_batch_inference(num_samples: int = SAMPLE_SIZE):
 
     print("\nLoading tokenizer and dataset...")
     train_dataset = TranslationDataset(
-        str(JSON_DATA),
-        spm_model_path=str(TOKENIZER_MODEL),
-        max_seq_len=MAX_SEQ_LEN,
-    )
-    val_dataset = TranslationDataset(
         str(JSON_DATA),
         spm_model_path=str(TOKENIZER_MODEL),
         max_seq_len=MAX_SEQ_LEN,
@@ -141,10 +148,12 @@ def run_transformer_batch_inference(num_samples: int = SAMPLE_SIZE):
 
     print("\nLoading test dataset...")
     df = pd.read_csv(CSV_DATA)
-    if 'split' in df.columns:
-        df = df[df['split'] == 'test']
+    if "split" in df.columns:
+        df = df[df["split"] == "test"]
 
-    sample_df = df.sample(n=min(num_samples, len(df)), random_state=42).reset_index(drop=True)
+    sample_df = df.sample(n=min(num_samples, len(df)), random_state=42).reset_index(
+        drop=True
+    )
     print(f"Evaluation samples: {len(sample_df)}")
 
     print("\n" + "=" * 60)
@@ -170,7 +179,9 @@ def run_transformer_batch_inference(num_samples: int = SAMPLE_SIZE):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run Transformer inference on the test split")
+    parser = argparse.ArgumentParser(
+        description="Run Transformer inference on the test split"
+    )
     parser.add_argument(
         "--samples",
         type=int,

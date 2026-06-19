@@ -33,7 +33,7 @@ class SPMTokenizer:
     def train(
         texts: list[str],
         model_prefix: str,
-        vocab_size: int = 16000,
+        vocab_size: int = 4000,
     ) -> None:
         """
         Train a SentencePiece BPE model on the given list of raw text strings.
