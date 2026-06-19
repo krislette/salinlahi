@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 _MODEL_DISPLAY_NAMES = {
     "transformer": "BaselineSeq2SeqTransformer",
-    "recurrent": "Seq2SeqRNN",
+    "recurrent": "Seq2SeqGRU",
 }
 
 
