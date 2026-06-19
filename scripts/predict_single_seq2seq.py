@@ -6,7 +6,7 @@ import logging
 from src.models.recurrent.seq2seq import build_model
 from src.models.recurrent.tokenizer import SPMTokenizer, BOS_IDX, EOS_IDX
 
-from preprocess import preprocess_text
+from scripts.preprocess import preprocess_text
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
