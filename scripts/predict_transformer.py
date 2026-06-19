@@ -13,7 +13,7 @@ from src.models.transformer.tokenizer import (
 )
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
-from preprocess import preprocess_text
+from scripts.preprocess import preprocess_text
 
 SAMPLE_SIZE = 1500
 MAX_SEQ_LEN = 128

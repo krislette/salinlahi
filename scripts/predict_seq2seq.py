@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.models.recurrent.seq2seq import build_model
 from src.models.recurrent.tokenizer import SPMTokenizer, BOS_IDX, EOS_IDX
 
-from preprocess import preprocess_text
+from scripts.preprocess import preprocess_text
 
 LANGUAGE_PAIRS = {
     "fil_war": {"name": "Filipino -> Waray", "dir": "fil_war"},
@@ -59,7 +59,7 @@ def translate(
         lang_key, config, device
     )
     cleaned_sentence = preprocess_text(text)
-    source_ids = source_tokenizer.encode(cleaned_sentence.lower().strip())
+    source_ids = source_tokenizer.encode(cleaned_sentence.lower().strip())[:100]
     source_tensor = torch.tensor(source_ids, dtype=torch.long).unsqueeze(0).to(device)
     source_lengths = torch.tensor([len(source_ids)], dtype=torch.long)
     predicted_ids, _ = model.translate(

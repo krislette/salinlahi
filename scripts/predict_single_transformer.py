@@ -7,7 +7,7 @@ from src.models.transformer.seq2seq import BaselineSeq2SeqTransformer
 from src.models.transformer.tokenizer import PAD_IDX, SOS_IDX, EOS_IDX
 from src.models.transformer.helpers import generate_square_subsequent_mask
 
-from preprocess import preprocess_text
+from scripts.preprocess import preprocess_text
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
