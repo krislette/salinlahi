@@ -59,7 +59,7 @@ def translate(
         lang_key, config, device
     )
     cleaned_sentence = preprocess_text(text)
-    source_ids = source_tokenizer.encode(cleaned_sentence.lower().strip())
+    source_ids = source_tokenizer.encode(cleaned_sentence.lower().strip())[:100]
     source_tensor = torch.tensor(source_ids, dtype=torch.long).unsqueeze(0).to(device)
     source_lengths = torch.tensor([len(source_ids)], dtype=torch.long)
     predicted_ids, _ = model.translate(
