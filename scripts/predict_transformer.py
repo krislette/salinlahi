@@ -113,7 +113,7 @@ def beam_search_decode(
 def translate_sentence(
     sentence: str, model: torch.nn.Module, sp, device: torch.device
 ) -> str:
-    cleaned_sentence = preprocess_text(sentence)
+    cleaned_sentence = preprocess_text(sentence.lower())
     src_tokens = [SOS_IDX] + sp.encode(str(cleaned_sentence), out_type=int) + [EOS_IDX]
     src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
 
