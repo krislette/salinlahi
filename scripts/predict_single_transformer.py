@@ -136,7 +136,7 @@ class TransformerTranslator:
 
         try:
             # Limits the amount of input to max of 100
-            cleaned_sentence = preprocess_text(sentence)
+            cleaned_sentence = preprocess_text(sentence.lower())
             raw_tokens = self.sp.encode(str(cleaned_sentence), out_type=int)[:100]
             src_tokens = [SOS_IDX] + raw_tokens + [EOS_IDX]
             src_tensor = torch.tensor(src_tokens, dtype=torch.long).unsqueeze(1)
